@@ -1,0 +1,35 @@
+# Local runtimes and generated binaries
+.venv/
+__pycache__/
+*.pyc
+*.exe
+*.dll
+*.zip
+*.nupkg
+*.spec
+build/
+dist/
+.build/
+*.log
+
+# Original game data and private artwork editing packs
+gamebundle
+Assembly-CSharp.dll
+*.mp4
+*.resS
+*.assets
+originals/
+previews/
+contact-sheets/
+replacements/
+editing-pack/
+assets.json
+artwork/*.png
+artwork/**/*.png
+artwork/manifest.json
+
+# Local secrets/configuration
+.env
+.env.*
+*.pem
+*.key
