@@ -15,13 +15,18 @@ search for answers draws him into a web of love, conspiracy and shifting timelin
 English subtitles, story text, menus and artwork for **轮回之理 — MOBIUS THEORY**,
 [Steam app 1925830](https://store.steampowered.com/app/1925830/MOBIUS_THEORY/).
 
-**Version 1.0.0.** The complete Windows release includes 471 subtitle cues across
+**Version 1.0.0.** The complete Windows and Linux packages include 471 subtitle cues across
 seven files and 189 artwork replacements covering tutorials, buttons, documents,
 computer screens and puzzle labels. Choices, evidence, endings, inner monologues
 and text-based menus are translated too.
 
 **[Download the English patch](https://github.com/GeneStarwind09/mobius-theory-english/releases/tag/v1.0.0).**
-Choose **Mobius-Theory-English-v1.0.0.zip**, not GitHub's automatic source ZIP.
+Choose the complete package for your platform; GitHub's automatic source archives are for contributors.
+
+| Platform | Download |
+|:---|:---|
+| Windows | [Mobius-Theory-English-v1.0.0.zip](https://github.com/GeneStarwind09/mobius-theory-english/releases/download/v1.0.0/Mobius-Theory-English-v1.0.0.zip) |
+| SteamOS / Linux x86-64 | [Mobius-Theory-English-Linux-x86_64-v1.0.0.tar.gz](https://github.com/GeneStarwind09/mobius-theory-english/releases/download/v1.0.0/Mobius-Theory-English-Linux-x86_64-v1.0.0.tar.gz) |
 The owner completed the game in English, performed further QA passes, and
 confirmed the final Mind Palace animation/interaction and Close-button repairs.
 See [release notes and known issues](docs/RELEASE-1.0.0.md).
@@ -51,9 +56,15 @@ come from the beginning of the game. Click either image to view it at full size.
 
 ## Install
 
-For the native **Linux installer testing build**, see [SteamOS/Linux instructions](docs/LINUX.md).
-It applies the same complete translation to the Windows game used by Proton.
-Steam Machine installation/playtesting of that new installer is pending.
+For **SteamOS / Linux**, follow the [Desktop Mode installation instructions](docs/LINUX.md).
+The native installer was tested successfully on a Steam Machine, including automatic
+Steam-library detection and patched gameplay. The game itself runs through Proton.
+**Proton Experimental is recommended** based on the tester's experience; an audio/video
+sync issue occurred with standard Proton and did not recur during about ten minutes
+after switching. This does not establish that Experimental fixes it. A full SteamOS
+playthrough and Steam Deck testing have not been completed.
+
+### Windows
 
 1. Extract the entire release ZIP, retaining `_internal/` and `artwork/`.
 2. Close the game and run `Mobius-English-Patcher.exe`.

@@ -2,7 +2,7 @@ name: Linux build
 
 on:
   push:
-    branches: [linux-installer]
+    branches: [main, linux-installer]
   workflow_dispatch:
 
 permissions:

@@ -28,6 +28,16 @@ through Steam with subtitles enabled. Restore Chinese uninstalls it; saves stay
 intact. Restore an earlier English patch before installing a different version.
 The approved 0.2.4 QA revision already has identical game-file replacements.
 
+## SteamOS / Linux package added
+
+A native x86-64 Linux installer is available alongside the Windows ZIP. It applies
+the same v1.0.0 game-file replacements. The owner confirmed installation, automatic
+Steam-library detection and a short patched gameplay test on a Steam Machine.
+Use [the Linux instructions](LINUX.md) in Desktop Mode, then launch the game via
+Proton. Proton Experimental is recommended based on the tester's experience, but
+is not a proven fix for intermittent audio/video sync issues. A full SteamOS
+playthrough and Steam Deck testing are not claimed.
+
 ## Known limitations and reported technical issues
 
 - A few long Story Map names can remain crowded, especially narrow ending cards.

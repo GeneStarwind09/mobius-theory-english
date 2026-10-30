@@ -1,4 +1,4 @@
-# Linux installer — SteamOS testing build
+# Linux installer — SteamOS / Linux x86-64
 
 This package contains native **x86-64 Linux** executables and the complete
 v1.0.0 English translation. It patches the Windows game installed by Steam;
@@ -15,12 +15,30 @@ port of the game itself.
 4. Check the detected Steam game folder, or select it with Browse. Steam's
    Manage > Browse local files can help locate it.
 5. Choose **Check Installation**, then **Install English**, and wait for completion.
-6. Return to Steam and launch with your usual Proton settings. Enable subtitles.
+6. Return to Steam and launch the game through Proton. **Proton Experimental is
+   recommended** (see the testing notes below). Enable subtitles.
 
 No sudo, system package installation, Python, .NET, Mono or Wine is needed by
 the installer. Desktop Mode and a graphical display are needed for its window.
-SteamOS game compatibility was reported by the owner on a Steam Machine;
-Steam Deck and a complete Linux playthrough are not yet confirmed.
+The owner tested this installer on a Steam Machine running SteamOS: installation
+worked, the Steam game directory was detected automatically, and patched gameplay
+appeared correct. Steam Deck and a complete Linux playthrough are not yet confirmed.
+
+## Proton and playback notes
+
+The tester encountered an audio/video sync issue with standard Proton. After
+switching to Proton Experimental, no further sync or other issues appeared during
+about ten minutes of play. Proton Experimental is therefore the tester's
+recommendation, not a verified fix: the improvement could be coincidental.
+Intermittent playback problems were also reported during Windows QA; their cause
+has not been established. Restart the game if playback loses sync.
+
+Download **Mobius-Theory-English-Linux-x86_64-v1.0.0.tar.gz** from the
+[v1.0.0 release](https://github.com/GeneStarwind09/mobius-theory-english/releases/tag/v1.0.0).
+The release provides `LINUX-SHA256SUMS.txt` and `linux-build-info.json`; the latter
+identifies the exact source revision used for the executable. The tested archive
+is published unchanged. Its bundled instructions and build-time report predate
+the SteamOS test; this page and `Linux-Release-Notes.md` record the updated results.
 
 To uninstall, close the game and choose **Restore Chinese**. Saves are not
 changed. If another patch revision is installed, restore it before upgrading.
@@ -50,8 +68,8 @@ managed translations or word-wrap helper.
 The Unity bundle is rebuilt and verified using the same artwork, text, font and
 layout code as Windows. The installer never rewrites video playback or controls.
 Linux build tests verify native dependencies, running-game detection and safe
-failure on unsupported files. Testing the full commercial game install and
-gameplay on SteamOS remains the owner's next step.
+failure on unsupported files. The owner has now confirmed installation and a
+short patched gameplay test on SteamOS. See the scope and playback notes above.
 
 Build from source on x86-64 Linux with Python 3.10:
 
