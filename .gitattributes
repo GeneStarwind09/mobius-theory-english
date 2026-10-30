@@ -4,3 +4,5 @@ translations.json -text
 manifest.json -text
 layout.json -text
 artwork/manifest.json -text
+managed-patch.json -text
+*.sh text eol=lf

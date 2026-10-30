@@ -1,0 +1,44 @@
+name: Linux build
+
+on:
+  push:
+    branches: [linux-installer]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.10'
+          cache: pip
+      - name: Install build and GUI test dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y python3-tk xvfb libx11-6 libxext6 libxrender1 libxft2 libfontconfig1
+          python -m pip install -r requirements.txt
+      - name: Obtain verified release artwork
+        run: python tools/fetch_release_artwork.py
+      - name: Validate and test source
+        run: |
+          python tools/validate.py
+          python -m unittest discover -s tests -v
+      - name: Build native Linux package
+        run: python tools/package_linux.py
+      - name: Test native executable and package safeguards
+        run: xvfb-run -a python tools/test_linux_package.py dist/Mobius-Theory-English-Linux
+      - uses: actions/upload-artifact@v7
+        with:
+          name: Mobius-Theory-English-Linux-x86_64
+          path: |
+            dist/Mobius-Theory-English-Linux-x86_64-v1.0.0.tar.gz
+            dist/LINUX-SHA256SUMS.txt
+            dist/linux-build-info.json
+            dist/linux-smoke-qa.json
+          if-no-files-found: error

@@ -51,6 +51,10 @@ come from the beginning of the game. Click either image to view it at full size.
 
 ## Install
 
+For the native **Linux installer testing build**, see [SteamOS/Linux instructions](docs/LINUX.md).
+It applies the same complete translation to the Windows game used by Proton.
+Steam Machine installation/playtesting of that new installer is pending.
+
 1. Extract the entire release ZIP, retaining `_internal/` and `artwork/`.
 2. Close the game and run `Mobius-English-Patcher.exe`.
 3. Select the folder containing `轮回之理.exe`.

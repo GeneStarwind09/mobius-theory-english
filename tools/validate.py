@@ -9,6 +9,12 @@ def run(refresh=False):
         for name,row in manifest['subtitles'].items():row['english_sha256']=sha(ROOT/'subtitles'/name)
         path.write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     assert sha(ROOT/'translations.json')==manifest['translations_sha256'],'Translation dictionary hash mismatch.'
+    if manifest['managed'].get('portable_patch_sha256'):
+        recipe_path=ROOT/'managed-patch.json'
+        assert sha(recipe_path)==manifest['managed']['portable_patch_sha256'],'Portable assembly patch hash mismatch.'
+        recipe=json.loads(recipe_path.read_text(encoding='utf-8'))
+        assert recipe['original_sha256']==manifest['managed']['original_sha256']
+        assert recipe['translation_sha256']==sha(ROOT/'translations.json'),'Regenerate the portable assembly patch after translation changes.'
     for source,english in mapping.items():
         assert sorted(re.findall(r'\{\d+\}',source))==sorted(re.findall(r'\{\d+\}',english)),source
         assert sorted(re.findall(r'</?color[^>]*>',source))==sorted(re.findall(r'</?color[^>]*>',english)),source

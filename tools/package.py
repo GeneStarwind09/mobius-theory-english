@@ -8,7 +8,7 @@ from PyInstaller.__main__ import run
 run(['--noconfirm','--windowed','--onedir','--name','Mobius-English-Patcher','--distpath','.build/frozen','--workpath','.build/pyinstaller','--specpath','.build','--collect-all','UnityPy','--collect-all','fmod_toolkit','--collect-all','texture2ddecoder','--collect-all','etcpak','--collect-all','astc_encoder','--collect-all','archspec','patcher.py'])
 out=ROOT/'dist/Mobius-Theory-English';out.mkdir(parents=True,exist_ok=True)
 shutil.copytree(ROOT/'.build/frozen/Mobius-English-Patcher',out,dirs_exist_ok=True)
-for filename in ['patcher.py','artwork_support.py','layout_support.py','font_support.py','layout.json','TextPatch.cs','EnglishWrap.cs','manifest.json','translations.json','Translation-Review.csv','README.md','LICENSE','CONTRIBUTING.md','requirements.txt','THIRD-PARTY-NOTICES.txt']:
+for filename in ['patcher.py','platform_support.py','managed_support.py','managed-patch.json','artwork_support.py','layout_support.py','font_support.py','layout.json','TextPatch.cs','EnglishWrap.cs','manifest.json','translations.json','Translation-Review.csv','README.md','LICENSE','CONTRIBUTING.md','requirements.txt','THIRD-PARTY-NOTICES.txt']:
     shutil.copy2(ROOT/filename,out/filename)
 for folder in ['subtitles','licenses','docs','tools','artwork']:
     shutil.copytree(ROOT/folder,out/folder,dirs_exist_ok=True,ignore=shutil.ignore_patterns('__pycache__','*.pyc'))

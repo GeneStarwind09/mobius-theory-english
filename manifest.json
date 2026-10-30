@@ -774,7 +774,8 @@
   "translations_sha256": "aea812a37b10e90cc05a156767e887fefd63edde29db82101b1877ef9c900372",
   "managed": {
     "path": "轮回之理_Data/Managed/Assembly-CSharp.dll",
-    "original_sha256": "de9535d407245beb108599d4370770b5429182d7dc7af5e1cec5e637b377f84e"
+    "original_sha256": "de9535d407245beb108599d4370770b5429182d7dc7af5e1cec5e637b377f84e",
+    "portable_patch_sha256": "55097be0c90ee2cfd2669b089ef89919ca0a53d91402ecd922df45728acf56e5"
   },
   "mind_palace_font": {
     "resources_path": "轮回之理_Data/resources.assets",

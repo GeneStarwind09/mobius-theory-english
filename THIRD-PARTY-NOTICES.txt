@@ -1109,3 +1109,5 @@ Python: see licenses/Python-LICENSE.txt.
 Mono.Cecil source: https://github.com/jbevain/cecil
 UnityPy source: https://github.com/K0lb3/UnityPy
 PyInstaller source: https://github.com/pyinstaller/pyinstaller
+
+bsdiff4 1.4.0: BSD-style licences; see licenses/bsdiff4.txt. Used for portable assembly deltas.

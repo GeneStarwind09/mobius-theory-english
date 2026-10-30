@@ -4,6 +4,8 @@ import pathlib,hashlib,json,os,sys,re,shutil,tempfile,subprocess,argparse,thread
 from artwork_support import payload_id,load_replacements,apply_replacements,verify_replacements
 from layout_support import load_layout,validate_originals,apply_layout,verify_layout
 from font_support import apply_mind_palace_font
+from platform_support import linux_game_running,linux_steam_roots,steam_game_candidates
+from managed_support import apply_managed_delta
 
 BASE=pathlib.Path(sys.executable).parent if getattr(sys,'frozen',False) else pathlib.Path(__file__).resolve().parent
 CREATE_NO_WINDOW=0x08000000 if os.name=='nt' else 0
@@ -35,6 +37,7 @@ def safe_path(root,rel):
     return p
 
 def game_running():
+    if sys.platform.startswith('linux'):return linux_game_running()
     p=subprocess.run([str(BASE/'TextPatch.exe'),'--running'],creationflags=CREATE_NO_WINDOW,capture_output=True)
     if p.returncode not in (0,3):raise RuntimeError('Could not check whether the game is running.')
     return p.returncode==3
@@ -153,9 +156,13 @@ def install(root,log=print):
             if rel==manifest['bundle']['path']:build_bundle(source,dest,mapping,manifest,log,root)
             elif rel==manifest['managed']['path']:
                 log('Translating dynamic menu text...')
-                result=subprocess.run([str(BASE/'TextPatch.exe'),str(source),str(dest),str(BASE/'translations.json')],capture_output=True,creationflags=CREATE_NO_WINDOW)
-                if result.returncode:raise RuntimeError('Text helper failed: '+result.stderr.decode('utf-8',errors='replace'))
-                log(result.stdout.decode('utf-8',errors='replace').strip())
+                if sys.platform.startswith('linux'):
+                    apply_managed_delta(source,dest,BASE,manifest)
+                    log('Portable assembly patch verified against the approved Windows output.')
+                else:
+                    result=subprocess.run([str(BASE/'TextPatch.exe'),str(source),str(dest),str(BASE/'translations.json')],capture_output=True,creationflags=CREATE_NO_WINDOW)
+                    if result.returncode:raise RuntimeError('Text helper failed: '+result.stderr.decode('utf-8',errors='replace'))
+                    log(result.stdout.decode('utf-8',errors='replace').strip())
             else:
                 name=pathlib.Path(rel).name;payload=BASE/'subtitles'/name
                 if digest(payload)!=manifest['subtitles'][name]['english_sha256']:raise RuntimeError('Subtitle data hash mismatch: '+name)
@@ -183,6 +190,9 @@ def install(root,log=print):
 
 def find_game():
     candidates=[BASE,BASE.parent]
+    if sys.platform.startswith('linux'):
+        candidates.extend(steam_game_candidates(linux_steam_roots()))
+        return str(next((p for p in candidates if (p/'轮回之理.exe').is_file()),''))
     try:
         import winreg
         with winreg.OpenKey(winreg.HKEY_CURRENT_USER,r'Software\Valve\Steam') as key:steam=pathlib.Path(winreg.QueryValueEx(key,'SteamPath')[0])
@@ -242,13 +252,24 @@ def gui():
         win.destroy()
     win.protocol('WM_DELETE_WINDOW',close);poll();win.mainloop()
 
+def runtime_self_test():
+    """Build-runner smoke check of bundled native libraries and Tk."""
+    import bsdiff4,UnityPy,tkinter
+    from UnityPy.export import Texture2DConverter
+    original=b'original '+bytes(range(256));english=b'English '+bytes(range(256))
+    if bsdiff4.patch(original,bsdiff4.diff(original,english))!=english:raise RuntimeError('BSDIFF runtime check failed.')
+    root=tkinter.Tk();root.withdraw();root.update();root.destroy()
+    print('Native dependencies, Unity texture converter, BSDIFF and Tk passed.')
+
 if __name__=='__main__':
     # Windows console code pages may not support the Chinese installation path.
     for stream in (sys.stdout,sys.stderr):
         if stream is not None and hasattr(stream,'reconfigure'):stream.reconfigure(encoding='utf-8',errors='replace')
     parser=argparse.ArgumentParser();parser.add_argument('--game');parser.add_argument('--action',choices=['check','install','restore'])
+    parser.add_argument('--self-test',action='store_true',help=argparse.SUPPRESS)
     args=parser.parse_args()
-    if args.action:
+    if args.self_test:runtime_self_test()
+    elif args.action:
         try:globals()[args.action](args.game or find_game())
         except Exception as e:print('ERROR:',e);sys.exit(1)
     else:gui()
