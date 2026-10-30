@@ -1,4 +1,16 @@
+<p align="center">
+  <a href="https://store.steampowered.com/app/1925830/MOBIUS_THEORY/">
+    <img src="docs/images/mobius-theory-logo.png" alt="轮回之理 — Mobius Theory" width="640">
+  </a>
+</p>
+
 # Mobius Theory — English fan translation
+
+*Mobius Theory* is a live-action mystery combining romance, investigation and
+time travel. Reporter Li Weishi is preparing to marry his fiancée, Zhao Yidie,
+when an unexpected reunion with his first love, Lin Jianhe, casts doubt on the
+past he thought he knew. Follow the clues, solve puzzles and make choices as a
+search for answers draws him into a web of love, conspiracy and shifting timelines.
 
 English subtitles, story text, menus and artwork for **轮回之理 — MOBIUS THEORY**,
 [Steam app 1925830](https://store.steampowered.com/app/1925830/MOBIUS_THEORY/).
@@ -13,6 +25,29 @@ Choose **Mobius-Theory-English-v1.0.0.zip**, not GitHub's automatic source ZIP.
 The owner completed the game in English, performed further QA passes, and
 confirmed the final Mind Palace animation/interaction and Close-button repairs.
 See [release notes and known issues](docs/RELEASE-1.0.0.md).
+
+## See the translation in game
+
+Original Chinese on the left; the English patch on the right. These screenshots
+come from the beginning of the game. Click either image to view it at full size.
+
+### Dialogue and subtitles
+
+| Original Chinese | English patch |
+|:---:|:---:|
+| [![Original Chinese dialogue subtitle and video controls](docs/images/comparison02_ch.jpg)](docs/images/comparison02_ch.jpg) | [![English dialogue subtitle and video controls](docs/images/comparison02_en.jpg)](docs/images/comparison02_en.jpg) |
+
+### Documents and evidence
+
+| Original Chinese | English patch |
+|:---:|:---:|
+| [![Original Chinese care-home records and evidence text](docs/images/comparison01_ch.jpg)](docs/images/comparison01_ch.jpg) | [![English care-home records and evidence text](docs/images/comparison01_en.jpg)](docs/images/comparison01_en.jpg) |
+
+### Story Map and menus
+
+| Original Chinese | English patch |
+|:---:|:---:|
+| [![Original Chinese chapter-one Story Map](docs/images/comparison03_ch.jpg)](docs/images/comparison03_ch.jpg) | [![English chapter-one Story Map](docs/images/comparison03_en.jpg)](docs/images/comparison03_en.jpg) |
 
 ## Install
 
