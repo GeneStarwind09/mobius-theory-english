@@ -1,0 +1,6 @@
+# Preserve the exact payload bytes used by integrity hashes and installation.
+subtitles/*.srt -text
+translations.json -text
+manifest.json -text
+layout.json -text
+artwork/manifest.json -text
