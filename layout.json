@@ -1,0 +1,4730 @@
+{
+  "schema": 1,
+  "original_bundle_sha256": "fb936c671dfa91362647fb4d80cf9de5c5b9cf7cc7b7da81945bc21941693c2f",
+  "objects": [
+    {
+      "id": -7439782366890635949,
+      "path": "GameRecord/Content/M_ItemName",
+      "original_sha256": "3cf5f7e6893e978960459fcbf3ea0e037536687b01efb10ad4bcc507b82e8358",
+      "reason": "Bound English text to its visible panel",
+      "set": [
+        {
+          "field": "m_SizeDelta.x",
+          "value": 265
+        },
+        {
+          "field": "m_SizeDelta.y",
+          "value": 52
+        },
+        {
+          "field": "m_AnchoredPosition.x",
+          "value": 208
+        },
+        {
+          "field": "m_Pivot.x",
+          "value": 0
+        },
+        {
+          "field": "m_Pivot.y",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "id": 5973545985610606893,
+      "path": "GameRecord/Content/M_ItemName",
+      "original_sha256": "1e8c01c3cd5f512ef8029b7d05a497baa8b7614633621264bf2fdcbab563cea1",
+      "reason": "English sizing within fixed bounds",
+      "set": [
+        {
+          "field": "m_FontData.m_BestFit",
+          "value": true
+        },
+        {
+          "field": "m_FontData.m_FontSize",
+          "value": 30
+        },
+        {
+          "field": "m_FontData.m_MinSize",
+          "value": 16
+        },
+        {
+          "field": "m_FontData.m_MaxSize",
+          "value": 30
+        },
+        {
+          "field": "m_FontData.m_Alignment",
+          "value": 3
+        },
+        {
+          "field": "m_FontData.m_HorizontalOverflow",
+          "value": 0
+        },
+        {
+          "field": "m_FontData.m_VerticalOverflow",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": -1768825477680378294,
+      "path": "GameRecord/Content/M_ItemName",
+      "original_sha256": "a11666704428b3f0d1b40eeea257dfbb95751d7b674943dc1f5727b3d8f47926",
+      "reason": "Prevent preferred-size growth from defeating text fitting",
+      "set": [
+        {
+          "field": "m_HorizontalFit",
+          "value": 0
+        },
+        {
+          "field": "m_VerticalFit",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": 3407521782964108722,
+      "path": "GameRecordItem/M_Name",
+      "original_sha256": "b0fdccb1b34dc82282f7dce6996e8c357277c52eb1d351483bb42b2c74e1d069",
+      "reason": "Bound English text to its visible panel",
+      "set": [
+        {
+          "field": "m_SizeDelta.x",
+          "value": 365
+        },
+        {
+          "field": "m_SizeDelta.y",
+          "value": 60
+        },
+        {
+          "field": "m_AnchoredPosition.x",
+          "value": 155
+        },
+        {
+          "field": "m_AnchoredPosition.y",
+          "value": -14
+        },
+        {
+          "field": "m_Pivot.x",
+          "value": 0
+        },
+        {
+          "field": "m_Pivot.y",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "id": -630988642079046093,
+      "path": "GameRecordItem/M_Name",
+      "original_sha256": "f502b304730ef1004f2807f436a2d773e9e1a7e1e342230919e2c21f02ba00ef",
+      "reason": "English sizing within fixed bounds",
+      "set": [
+        {
+          "field": "m_FontData.m_BestFit",
+          "value": true
+        },
+        {
+          "field": "m_FontData.m_FontSize",
+          "value": 30
+        },
+        {
+          "field": "m_FontData.m_MinSize",
+          "value": 16
+        },
+        {
+          "field": "m_FontData.m_MaxSize",
+          "value": 30
+        },
+        {
+          "field": "m_FontData.m_Alignment",
+          "value": 3
+        },
+        {
+          "field": "m_FontData.m_HorizontalOverflow",
+          "value": 0
+        },
+        {
+          "field": "m_FontData.m_VerticalOverflow",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": 3378670030911369303,
+      "path": "GameRecordItem/M_Name",
+      "original_sha256": "73a7958e678f744a659ce9fe40e4aeb34f3c1ac7f6aa3a5cb4c33dc90922990a",
+      "reason": "Prevent preferred-size growth from defeating text fitting",
+      "set": [
+        {
+          "field": "m_HorizontalFit",
+          "value": 0
+        },
+        {
+          "field": "m_VerticalFit",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": -2681605631025511043,
+      "path": "GameRecord/Content/M_ItemDesc",
+      "original_sha256": "64bddbbbf67cf9fc0d54691bff917df935fb2e103a779ad4a9b23e74754059be",
+      "reason": "Bound English text to its visible panel",
+      "set": [
+        {
+          "field": "m_SizeDelta.x",
+          "value": 800
+        },
+        {
+          "field": "m_SizeDelta.y",
+          "value": 155
+        }
+      ]
+    },
+    {
+      "id": -1057817089533432145,
+      "path": "GameRecord/Content/M_ItemDesc",
+      "original_sha256": "75a0b7ac4738a2de85bafd7b50825234d35831b9f1c2e73e0caf00d6eef4134a",
+      "reason": "English sizing within fixed bounds",
+      "set": [
+        {
+          "field": "m_FontData.m_BestFit",
+          "value": true
+        },
+        {
+          "field": "m_FontData.m_FontSize",
+          "value": 25
+        },
+        {
+          "field": "m_FontData.m_MinSize",
+          "value": 20
+        },
+        {
+          "field": "m_FontData.m_MaxSize",
+          "value": 25
+        },
+        {
+          "field": "m_FontData.m_Alignment",
+          "value": 0
+        },
+        {
+          "field": "m_FontData.m_HorizontalOverflow",
+          "value": 0
+        },
+        {
+          "field": "m_FontData.m_VerticalOverflow",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": 5610178294802759296,
+      "path": "GameRecord/Content/M_ItemDesc",
+      "original_sha256": "08c4e9ce09e8eec7fdd6fd7e1704a44d1b4cedcc7086d497b514da8072641d30",
+      "reason": "Prevent preferred-size growth from defeating text fitting",
+      "set": [
+        {
+          "field": "m_HorizontalFit",
+          "value": 0
+        },
+        {
+          "field": "m_VerticalFit",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": -5156526755405039782,
+      "path": "StoryLinePlotItem/M_PlotName",
+      "original_sha256": "fdba0049c981a5b7ed07dcbf372cb7d0b10a3632b4db75b27f6d243f5ccb4788",
+      "reason": "Bound English text to its visible panel",
+      "set": [
+        {
+          "field": "m_SizeDelta.x",
+          "value": 247
+        },
+        {
+          "field": "m_SizeDelta.y",
+          "value": 50
+        }
+      ]
+    },
+    {
+      "id": 5444431080322725120,
+      "path": "StoryLinePlotItem/M_PlotName",
+      "original_sha256": "3d5e22f093d366c9916b5dc8db77d37c2934d826135d93f7516d812a21f0f75d",
+      "reason": "English sizing within fixed bounds",
+      "set": [
+        {
+          "field": "m_FontData.m_BestFit",
+          "value": true
+        },
+        {
+          "field": "m_FontData.m_FontSize",
+          "value": 28
+        },
+        {
+          "field": "m_FontData.m_MinSize",
+          "value": 13
+        },
+        {
+          "field": "m_FontData.m_MaxSize",
+          "value": 28
+        },
+        {
+          "field": "m_FontData.m_Alignment",
+          "value": 4
+        },
+        {
+          "field": "m_FontData.m_HorizontalOverflow",
+          "value": 0
+        },
+        {
+          "field": "m_FontData.m_VerticalOverflow",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": 1496464477496451771,
+      "path": "StoryLinePlotItem/M_PlotName",
+      "original_sha256": "2076c632b0f1206eae837931e96e2387961e5ec5fb89401573ed43ed54fce1cf",
+      "reason": "Prevent preferred-size growth from defeating text fitting",
+      "set": [
+        {
+          "field": "m_HorizontalFit",
+          "value": 0
+        },
+        {
+          "field": "m_VerticalFit",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": -1891802090756170197,
+      "path": "StoryLineGameItem/M_PlotName",
+      "original_sha256": "51b539b777fb644673ab5bebcfafe970b115ea45cd315b011d4d6daaae2a33e4",
+      "reason": "Bound English text to its visible panel",
+      "set": [
+        {
+          "field": "m_SizeDelta.x",
+          "value": 247
+        },
+        {
+          "field": "m_SizeDelta.y",
+          "value": 50
+        }
+      ]
+    },
+    {
+      "id": -8933142666249007553,
+      "path": "StoryLineGameItem/M_PlotName",
+      "original_sha256": "59bc5c8bdfc49e1b92de3cc51b78faff535ca1f0b2af5d85013df25c0f6a3717",
+      "reason": "English sizing within fixed bounds",
+      "set": [
+        {
+          "field": "m_FontData.m_BestFit",
+          "value": true
+        },
+        {
+          "field": "m_FontData.m_FontSize",
+          "value": 28
+        },
+        {
+          "field": "m_FontData.m_MinSize",
+          "value": 13
+        },
+        {
+          "field": "m_FontData.m_MaxSize",
+          "value": 28
+        },
+        {
+          "field": "m_FontData.m_Alignment",
+          "value": 4
+        },
+        {
+          "field": "m_FontData.m_HorizontalOverflow",
+          "value": 0
+        },
+        {
+          "field": "m_FontData.m_VerticalOverflow",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": 3352815145851844373,
+      "path": "StoryLineGameItem/M_PlotName",
+      "original_sha256": "45b3804e46f6b8e07ff4e327286d1bcb1cfeadcacc47a6d7f3095b8d38e8412d",
+      "reason": "Prevent preferred-size growth from defeating text fitting",
+      "set": [
+        {
+          "field": "m_HorizontalFit",
+          "value": 0
+        },
+        {
+          "field": "m_VerticalFit",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": 3957997553303080167,
+      "path": "StoryLineFinaleItem/M_PlotName",
+      "original_sha256": "d066a1a1eac651e6510b1704cd03aa8b0cac423beccbe4a1d81a55f83a3d2955",
+      "reason": "Bound English text to its visible panel",
+      "set": [
+        {
+          "field": "m_SizeDelta.x",
+          "value": 247
+        },
+        {
+          "field": "m_SizeDelta.y",
+          "value": 50
+        }
+      ]
+    },
+    {
+      "id": -2897841516269099411,
+      "path": "StoryLineFinaleItem/M_PlotName",
+      "original_sha256": "6df31b518375e4d95a45c74ad44332f05e71fd67d363deddbcd1e8f19791dba1",
+      "reason": "English sizing within fixed bounds",
+      "set": [
+        {
+          "field": "m_FontData.m_BestFit",
+          "value": true
+        },
+        {
+          "field": "m_FontData.m_FontSize",
+          "value": 28
+        },
+        {
+          "field": "m_FontData.m_MinSize",
+          "value": 13
+        },
+        {
+          "field": "m_FontData.m_MaxSize",
+          "value": 28
+        },
+        {
+          "field": "m_FontData.m_Alignment",
+          "value": 4
+        },
+        {
+          "field": "m_FontData.m_HorizontalOverflow",
+          "value": 0
+        },
+        {
+          "field": "m_FontData.m_VerticalOverflow",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": -1876531498834535515,
+      "path": "StoryLineFinaleItem/M_PlotName",
+      "original_sha256": "b7b32d3fbf07bdcdeaf578508952353709fbd588e044bf518b9c5cadba6b81b9",
+      "reason": "Prevent preferred-size growth from defeating text fitting",
+      "set": [
+        {
+          "field": "m_HorizontalFit",
+          "value": 0
+        },
+        {
+          "field": "m_VerticalFit",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": 5077572013708550747,
+      "path": "StoryLineSpecialFinaleItem/Unlocked/M_PlotName",
+      "original_sha256": "e0a938aca1ab83c8f37d6b0c7f135e9c1a884e719277b2ae03853403bec8832c",
+      "reason": "Bound English text to its visible panel",
+      "set": [
+        {
+          "field": "m_SizeDelta.x",
+          "value": 255
+        },
+        {
+          "field": "m_SizeDelta.y",
+          "value": 44
+        },
+        {
+          "field": "m_AnchoredPosition.x",
+          "value": 0
+        },
+        {
+          "field": "m_AnchoredPosition.y",
+          "value": -84
+        }
+      ]
+    },
+    {
+      "id": -3672714510042639111,
+      "path": "StoryLineSpecialFinaleItem/Unlocked/M_PlotName",
+      "original_sha256": "81b7226eea5f99c770b303934cc388829296f999c641f4e89a3709e7ff1f94bc",
+      "reason": "English sizing within fixed bounds",
+      "set": [
+        {
+          "field": "m_FontData.m_BestFit",
+          "value": true
+        },
+        {
+          "field": "m_FontData.m_FontSize",
+          "value": 22
+        },
+        {
+          "field": "m_FontData.m_MinSize",
+          "value": 12
+        },
+        {
+          "field": "m_FontData.m_MaxSize",
+          "value": 22
+        },
+        {
+          "field": "m_FontData.m_Alignment",
+          "value": 4
+        },
+        {
+          "field": "m_FontData.m_HorizontalOverflow",
+          "value": 0
+        },
+        {
+          "field": "m_FontData.m_VerticalOverflow",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": -592564583511958595,
+      "path": "GameFinale/Content/M_Title",
+      "original_sha256": "e46998a0140f84509bc5bdfe6e7ed36ebd831c3f2f83c43b3719bfe1118f0034",
+      "reason": "Bound English text to its visible panel",
+      "set": [
+        {
+          "field": "m_SizeDelta.x",
+          "value": 600
+        },
+        {
+          "field": "m_SizeDelta.y",
+          "value": 78
+        },
+        {
+          "field": "m_AnchoredPosition.x",
+          "value": 57
+        },
+        {
+          "field": "m_AnchoredPosition.y",
+          "value": -270
+        },
+        {
+          "field": "m_Pivot.x",
+          "value": 0
+        },
+        {
+          "field": "m_Pivot.y",
+          "value": 0.5
+        }
+      ]
+    },
+    {
+      "id": 2480065839199785705,
+      "path": "GameFinale/Content/M_Title",
+      "original_sha256": "72507299f02384f5aac3979727bbf6bf44ae4cceca642784142eb10a962920ec",
+      "reason": "English sizing within fixed bounds",
+      "set": [
+        {
+          "field": "m_FontData.m_BestFit",
+          "value": true
+        },
+        {
+          "field": "m_FontData.m_FontSize",
+          "value": 48
+        },
+        {
+          "field": "m_FontData.m_MinSize",
+          "value": 24
+        },
+        {
+          "field": "m_FontData.m_MaxSize",
+          "value": 48
+        },
+        {
+          "field": "m_FontData.m_Alignment",
+          "value": 3
+        },
+        {
+          "field": "m_FontData.m_HorizontalOverflow",
+          "value": 0
+        },
+        {
+          "field": "m_FontData.m_VerticalOverflow",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": 132530168501144644,
+      "path": "GameFinale/Content/M_Title",
+      "original_sha256": "633e3df715a9b7eda7d71a52f1c43f979ddb261caadffc5c927317ac6fd0ab02",
+      "reason": "Prevent preferred-size growth from defeating text fitting",
+      "set": [
+        {
+          "field": "m_HorizontalFit",
+          "value": 0
+        },
+        {
+          "field": "m_VerticalFit",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": -6470367351069009099,
+      "path": "GameFinale/Content/M_Desc",
+      "original_sha256": "bc243831a42ccb17b498f1443bd527ee78c591b001ca5388447a7734067d5187",
+      "reason": "Bound English text to its visible panel",
+      "set": [
+        {
+          "field": "m_SizeDelta.x",
+          "value": 480
+        },
+        {
+          "field": "m_SizeDelta.y",
+          "value": 680
+        },
+        {
+          "field": "m_AnchoredPosition.x",
+          "value": 57
+        },
+        {
+          "field": "m_AnchoredPosition.y",
+          "value": -332
+        },
+        {
+          "field": "m_Pivot.x",
+          "value": 0
+        },
+        {
+          "field": "m_Pivot.y",
+          "value": 1
+        },
+        {
+          "field": "m_AnchorMin.y",
+          "value": 1.0
+        },
+        {
+          "field": "m_AnchorMax.y",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "id": 1579186061801217603,
+      "path": "GameFinale/Content/M_Desc",
+      "original_sha256": "c18611bb949cf3e3a795c100e1f6f27d072db5148a347434d592e7c677295485",
+      "reason": "English sizing within fixed bounds",
+      "set": [
+        {
+          "field": "m_FontData.m_BestFit",
+          "value": false
+        },
+        {
+          "field": "m_FontData.m_FontSize",
+          "value": 24
+        },
+        {
+          "field": "m_FontData.m_MinSize",
+          "value": 24
+        },
+        {
+          "field": "m_FontData.m_MaxSize",
+          "value": 24
+        },
+        {
+          "field": "m_FontData.m_Alignment",
+          "value": 0
+        },
+        {
+          "field": "m_FontData.m_HorizontalOverflow",
+          "value": 0
+        },
+        {
+          "field": "m_FontData.m_VerticalOverflow",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": -2578445704722981815,
+      "path": "GameFinale/Content/M_Desc",
+      "original_sha256": "713aeb05229b2f4d8062710f1571eaac291fe1c40bae5741b3e9d0f5b5be679c",
+      "reason": "Prevent preferred-size growth from defeating text fitting",
+      "set": [
+        {
+          "field": "m_HorizontalFit",
+          "value": 0
+        },
+        {
+          "field": "m_VerticalFit",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": 985396170690084108,
+      "path": "LeftItem/Text",
+      "original_sha256": "6436a8201933e17a8dc10bb3622542861b539ec9b8d24956cd8d933825c3a6f8",
+      "reason": "Bound English text to its visible panel",
+      "set": [
+        {
+          "field": "m_SizeDelta.x",
+          "value": 500
+        },
+        {
+          "field": "m_SizeDelta.y",
+          "value": 85
+        },
+        {
+          "field": "m_AnchoredPosition.y",
+          "value": 105
+        }
+      ]
+    },
+    {
+      "id": -3348352067331780564,
+      "path": "LeftItem/Text",
+      "original_sha256": "e4436d7e3717f4549858b36c1a8d799e06cb1db5e8782deab06f1144dd022bd0",
+      "reason": "English sizing within fixed bounds",
+      "set": [
+        {
+          "field": "m_FontData.m_BestFit",
+          "value": true
+        },
+        {
+          "field": "m_FontData.m_FontSize",
+          "value": 30
+        },
+        {
+          "field": "m_FontData.m_MinSize",
+          "value": 20
+        },
+        {
+          "field": "m_FontData.m_MaxSize",
+          "value": 30
+        },
+        {
+          "field": "m_FontData.m_Alignment",
+          "value": 4
+        },
+        {
+          "field": "m_FontData.m_HorizontalOverflow",
+          "value": 0
+        },
+        {
+          "field": "m_FontData.m_VerticalOverflow",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": 4991559477513079223,
+      "path": "LeftItem/Text",
+      "original_sha256": "9867bddf1249540d18218b41a9fe25b60fe25677f2b9e788b277e7753bc95fee",
+      "reason": "Prevent preferred-size growth from defeating text fitting",
+      "set": [
+        {
+          "field": "m_HorizontalFit",
+          "value": 0
+        },
+        {
+          "field": "m_VerticalFit",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": 2661212843242795289,
+      "path": "LeftItem/HightLight",
+      "original_sha256": "f94f7743b1f6d6759e8543733c494ddb65a40f1e711c0073126dbf8b5323477a",
+      "reason": "Bound English text to its visible panel",
+      "set": [
+        {
+          "field": "m_SizeDelta.x",
+          "value": 520
+        },
+        {
+          "field": "m_SizeDelta.y",
+          "value": 95
+        },
+        {
+          "field": "m_AnchoredPosition.y",
+          "value": 105
+        }
+      ]
+    },
+    {
+      "id": -5047500871422169983,
+      "path": "RightItem/Text",
+      "original_sha256": "5d180842f511d1ca7b7e0457d47a442ce49d077dd78e826fdc93d8562425932c",
+      "reason": "Bound English text to its visible panel",
+      "set": [
+        {
+          "field": "m_SizeDelta.x",
+          "value": 550
+        },
+        {
+          "field": "m_SizeDelta.y",
+          "value": 85
+        },
+        {
+          "field": "m_AnchoredPosition.y",
+          "value": 105
+        }
+      ]
+    },
+    {
+      "id": -4979455885436478734,
+      "path": "RightItem/Text",
+      "original_sha256": "a64d027f8181b4d28368d32cbb942e55470bbffa2ca1c112d787c14ab0d6656e",
+      "reason": "English sizing within fixed bounds",
+      "set": [
+        {
+          "field": "m_FontData.m_BestFit",
+          "value": true
+        },
+        {
+          "field": "m_FontData.m_FontSize",
+          "value": 30
+        },
+        {
+          "field": "m_FontData.m_MinSize",
+          "value": 20
+        },
+        {
+          "field": "m_FontData.m_MaxSize",
+          "value": 30
+        },
+        {
+          "field": "m_FontData.m_Alignment",
+          "value": 4
+        },
+        {
+          "field": "m_FontData.m_HorizontalOverflow",
+          "value": 0
+        },
+        {
+          "field": "m_FontData.m_VerticalOverflow",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": 732270288900358188,
+      "path": "RightItem/Text",
+      "original_sha256": "2d42fa09d689ca4c59a580d2cfa4caae07346aabe64cdd2754dfa677fc1cc06c",
+      "reason": "Prevent preferred-size growth from defeating text fitting",
+      "set": [
+        {
+          "field": "m_HorizontalFit",
+          "value": 0
+        },
+        {
+          "field": "m_VerticalFit",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": -7732036948837522182,
+      "path": "RightItem/HightLight",
+      "original_sha256": "9b8b0e3d4941e3e0fd5bb3e4c99689e2575465cc3c403fcef989887e655de8b5",
+      "reason": "Bound English text to its visible panel",
+      "set": [
+        {
+          "field": "m_SizeDelta.x",
+          "value": 570
+        },
+        {
+          "field": "m_SizeDelta.y",
+          "value": 95
+        },
+        {
+          "field": "m_AnchoredPosition.y",
+          "value": 105
+        }
+      ]
+    },
+    {
+      "id": -2221936706487814431,
+      "path": "InteractivePreview/MsgContent/Msg",
+      "original_sha256": "a93557fecca5f936cfcc7a0cf294370995091746a1de0186e2aa12415e5dd3c4",
+      "reason": "Bound English text to its visible panel",
+      "set": [
+        {
+          "field": "m_SizeDelta.x",
+          "value": 1400
+        },
+        {
+          "field": "m_SizeDelta.y",
+          "value": 130
+        }
+      ]
+    },
+    {
+      "id": 6327027262677390060,
+      "path": "InteractivePreview/MsgContent/Msg",
+      "original_sha256": "24a98c2a4fb5777c168721b712698c8ff5fe720a27c952d3d4051d88bcb729a0",
+      "reason": "English sizing within fixed bounds",
+      "set": [
+        {
+          "field": "m_FontData.m_BestFit",
+          "value": true
+        },
+        {
+          "field": "m_FontData.m_FontSize",
+          "value": 35
+        },
+        {
+          "field": "m_FontData.m_MinSize",
+          "value": 22
+        },
+        {
+          "field": "m_FontData.m_MaxSize",
+          "value": 35
+        },
+        {
+          "field": "m_FontData.m_Alignment",
+          "value": 4
+        },
+        {
+          "field": "m_FontData.m_HorizontalOverflow",
+          "value": 0
+        },
+        {
+          "field": "m_FontData.m_VerticalOverflow",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": 7286162933520783300,
+      "path": "InteractivePreview/MsgContent/Msg",
+      "original_sha256": "5f9e7889e8b33e2740261e8a8a6c5e13ad8530ee1cd970ab9d7b094f1a985996",
+      "reason": "Prevent preferred-size growth from defeating text fitting",
+      "set": [
+        {
+          "field": "m_HorizontalFit",
+          "value": 0
+        },
+        {
+          "field": "m_VerticalFit",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": -6912369654707968293,
+      "path": "PopupToast/Content/Msg",
+      "original_sha256": "879246b3c16b226079d03ba6db9271e5315939e80ba606c79fe3103f06f7d440",
+      "reason": "Bound English text to its visible panel",
+      "set": [
+        {
+          "field": "m_SizeDelta.x",
+          "value": 1400
+        },
+        {
+          "field": "m_SizeDelta.y",
+          "value": 130
+        }
+      ]
+    },
+    {
+      "id": -8222327674133628922,
+      "path": "PopupToast/Content/Msg",
+      "original_sha256": "5ed372506f276e741985cf3029d36ea69d3ffc7d4607950ba31c4cc7f68fb439",
+      "reason": "English sizing within fixed bounds",
+      "set": [
+        {
+          "field": "m_FontData.m_BestFit",
+          "value": true
+        },
+        {
+          "field": "m_FontData.m_FontSize",
+          "value": 35
+        },
+        {
+          "field": "m_FontData.m_MinSize",
+          "value": 22
+        },
+        {
+          "field": "m_FontData.m_MaxSize",
+          "value": 35
+        },
+        {
+          "field": "m_FontData.m_Alignment",
+          "value": 4
+        },
+        {
+          "field": "m_FontData.m_HorizontalOverflow",
+          "value": 0
+        },
+        {
+          "field": "m_FontData.m_VerticalOverflow",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": -2854384938383042685,
+      "path": "PopupToast/Content/Msg",
+      "original_sha256": "771658f86ab52955ac7321c484f9954c943cff1819200435be6f7387ef633117",
+      "reason": "Prevent preferred-size growth from defeating text fitting",
+      "set": [
+        {
+          "field": "m_HorizontalFit",
+          "value": 0
+        },
+        {
+          "field": "m_VerticalFit",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": 1079335881996608132,
+      "path": "GameThinkingHallCluesWall/TextInfo/Text",
+      "original_sha256": "7cb11fcf20b7e73d5e82da1cb3df5d33c3e4eff884dfe8d8a38b094db022c027",
+      "reason": "Bound English text to its visible panel",
+      "set": [
+        {
+          "field": "m_SizeDelta.x",
+          "value": 1400
+        },
+        {
+          "field": "m_SizeDelta.y",
+          "value": 130
+        }
+      ]
+    },
+    {
+      "id": -5604863170369178830,
+      "path": "GameThinkingHallCluesWall/TextInfo/Text",
+      "original_sha256": "f60dc3eb416af9bb9870c72fbec9ba5d2dd0e8c8e6a1e86898a6ce9d9eea795d",
+      "reason": "English sizing within fixed bounds",
+      "set": [
+        {
+          "field": "m_FontData.m_BestFit",
+          "value": true
+        },
+        {
+          "field": "m_FontData.m_FontSize",
+          "value": 35
+        },
+        {
+          "field": "m_FontData.m_MinSize",
+          "value": 22
+        },
+        {
+          "field": "m_FontData.m_MaxSize",
+          "value": 35
+        },
+        {
+          "field": "m_FontData.m_Alignment",
+          "value": 4
+        },
+        {
+          "field": "m_FontData.m_HorizontalOverflow",
+          "value": 0
+        },
+        {
+          "field": "m_FontData.m_VerticalOverflow",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": -2967850961931821645,
+      "path": "GameThinkingHallCluesWall/TextInfo/Text",
+      "original_sha256": "80725c41bfcac4b872fb60cd2975befefe3e19d2c1ef860beaf080a5530c74b6",
+      "reason": "Prevent preferred-size growth from defeating text fitting",
+      "set": [
+        {
+          "field": "m_HorizontalFit",
+          "value": 0
+        },
+        {
+          "field": "m_VerticalFit",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": -2124200474499213181,
+      "path": "InteractivePreview/MsgContent",
+      "original_sha256": "b99f9edaf8fa5be87c263e43c5a12ad86837ba225b9963a16e98f12a572ca026",
+      "reason": "Bound English text to its visible panel",
+      "set": [
+        {
+          "field": "m_SizeDelta.x",
+          "value": 1480
+        },
+        {
+          "field": "m_SizeDelta.y",
+          "value": 150
+        }
+      ]
+    },
+    {
+      "id": 8641145440414811973,
+      "path": "PopupToast/Content",
+      "original_sha256": "0c1a07606b443c7f5f16fcf1d9e92e8e60391691752a263c845d5a9305c59a8d",
+      "reason": "Bound English text to its visible panel",
+      "set": [
+        {
+          "field": "m_SizeDelta.x",
+          "value": 1480
+        },
+        {
+          "field": "m_SizeDelta.y",
+          "value": 150
+        }
+      ]
+    },
+    {
+      "id": -6418570457100436200,
+      "path": "GameCutRope/Hint/Text",
+      "original_sha256": "8d361fff18484a792ee76dfcb153ba4df586e60eb34e88b504954d0327a323b4",
+      "reason": "Bound English text to its visible panel",
+      "set": [
+        {
+          "field": "m_SizeDelta.x",
+          "value": 1100
+        },
+        {
+          "field": "m_SizeDelta.y",
+          "value": 85
+        }
+      ]
+    },
+    {
+      "id": -8044585780139466637,
+      "path": "GameCutRope/Hint/Text",
+      "original_sha256": "239b7e6b9b1ce67a8fc1fb192a1c1a474736df9b8c1c560dae37d7f703997177",
+      "reason": "English sizing within fixed bounds",
+      "set": [
+        {
+          "field": "m_FontData.m_BestFit",
+          "value": true
+        },
+        {
+          "field": "m_FontData.m_FontSize",
+          "value": 30
+        },
+        {
+          "field": "m_FontData.m_MinSize",
+          "value": 22
+        },
+        {
+          "field": "m_FontData.m_MaxSize",
+          "value": 30
+        },
+        {
+          "field": "m_FontData.m_Alignment",
+          "value": 3
+        },
+        {
+          "field": "m_FontData.m_HorizontalOverflow",
+          "value": 0
+        },
+        {
+          "field": "m_FontData.m_VerticalOverflow",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": 6494016918913232079,
+      "path": "GameCutRope/Hint/Text",
+      "original_sha256": "b092b69aca88577b993e52e295f985d2d831105df3b318035a68c8ae63b27000",
+      "reason": "Prevent preferred-size growth from defeating text fitting",
+      "set": [
+        {
+          "field": "m_HorizontalFit",
+          "value": 0
+        },
+        {
+          "field": "m_VerticalFit",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": -5599234339126983601,
+      "path": "GameCutRope/Hint/TipBtn",
+      "original_sha256": "1ce15c9bb70346851b90f73dbc8151dae003dca85f104b45418a702bd63d59fe",
+      "reason": "Place the hint emblem before the instruction, with the hit area attached",
+      "set": [
+        {
+          "field": "m_AnchoredPosition.x",
+          "value": 85.0
+        }
+      ]
+    },
+    {
+      "id": -34929140899022019,
+      "path": "GameTract/Hint/Text",
+      "original_sha256": "e939a7540df5f656d25fd5ebff09b3ec90100b9cdf1bc9899767c9e4a3481c94",
+      "reason": "Bound English text to its visible panel",
+      "set": [
+        {
+          "field": "m_SizeDelta.x",
+          "value": 1100
+        },
+        {
+          "field": "m_SizeDelta.y",
+          "value": 85
+        }
+      ]
+    },
+    {
+      "id": -5691125215955394291,
+      "path": "GameTract/Hint/Text",
+      "original_sha256": "deebe89986de273c05055327968bcd229d262848677583adffdba3298edd92f9",
+      "reason": "English sizing within fixed bounds",
+      "set": [
+        {
+          "field": "m_FontData.m_BestFit",
+          "value": true
+        },
+        {
+          "field": "m_FontData.m_FontSize",
+          "value": 30
+        },
+        {
+          "field": "m_FontData.m_MinSize",
+          "value": 22
+        },
+        {
+          "field": "m_FontData.m_MaxSize",
+          "value": 30
+        },
+        {
+          "field": "m_FontData.m_Alignment",
+          "value": 3
+        },
+        {
+          "field": "m_FontData.m_HorizontalOverflow",
+          "value": 0
+        },
+        {
+          "field": "m_FontData.m_VerticalOverflow",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": -2106217639278383722,
+      "path": "GameTract/Hint/Text",
+      "original_sha256": "44e136dadff56a6d4934575b806b2619f51ed579a77862448a7f31ebafd0f052",
+      "reason": "Prevent preferred-size growth from defeating text fitting",
+      "set": [
+        {
+          "field": "m_HorizontalFit",
+          "value": 0
+        },
+        {
+          "field": "m_VerticalFit",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": -2291653104163278812,
+      "path": "GameTract/Hint/TipBtn",
+      "original_sha256": "7254ee47122f40f010627ce666aa52b6a0618c099e6c8e3b41fae7a1a479e614",
+      "reason": "Place the hint emblem before the instruction, with the hit area attached",
+      "set": [
+        {
+          "field": "m_AnchoredPosition.x",
+          "value": 85.0
+        }
+      ]
+    },
+    {
+      "id": -7185931504691451812,
+      "path": "GameLatteArt/Content/Hint/Text",
+      "original_sha256": "b6bd051cf1ea8bc3dc6a424cc2219a00e9714ccf6c765b1bae4a3d4d31cd5418",
+      "reason": "Bound English text to its visible panel",
+      "set": [
+        {
+          "field": "m_SizeDelta.x",
+          "value": 1100
+        },
+        {
+          "field": "m_SizeDelta.y",
+          "value": 85
+        }
+      ]
+    },
+    {
+      "id": -91070318172738529,
+      "path": "GameLatteArt/Content/Hint/Text",
+      "original_sha256": "f8a7b69620c786ff8ed68bf8d23d6be129bc1df4b27bff35bf84fb9a609f3d46",
+      "reason": "English sizing within fixed bounds",
+      "set": [
+        {
+          "field": "m_FontData.m_BestFit",
+          "value": true
+        },
+        {
+          "field": "m_FontData.m_FontSize",
+          "value": 30
+        },
+        {
+          "field": "m_FontData.m_MinSize",
+          "value": 22
+        },
+        {
+          "field": "m_FontData.m_MaxSize",
+          "value": 30
+        },
+        {
+          "field": "m_FontData.m_Alignment",
+          "value": 3
+        },
+        {
+          "field": "m_FontData.m_HorizontalOverflow",
+          "value": 0
+        },
+        {
+          "field": "m_FontData.m_VerticalOverflow",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": 5205897116353355179,
+      "path": "GameLatteArt/Content/Hint/Text",
+      "original_sha256": "d7c18e34ff50f2c6280329fe116283222dff651674a8a2ec5166e2dd735c61e8",
+      "reason": "Prevent preferred-size growth from defeating text fitting",
+      "set": [
+        {
+          "field": "m_HorizontalFit",
+          "value": 0
+        },
+        {
+          "field": "m_VerticalFit",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": 2527096524099772983,
+      "path": "GameLatteArt/Content/Hint/TipBtn",
+      "original_sha256": "098c8e361b27aa0264530013d602434d753e27dcc3928c03fd440ec9180f36c3",
+      "reason": "Place the hint emblem before the instruction, with the hit area attached",
+      "set": [
+        {
+          "field": "m_AnchoredPosition.x",
+          "value": 85.0
+        }
+      ]
+    },
+    {
+      "id": 5026408317812040906,
+      "path": "GameInnerMonologue/TipText/tipT",
+      "original_sha256": "5adea1f155deb389acd95585b0e94df7e72c26a615b3b9261493d349160a4970",
+      "reason": "Bound English text to its visible panel",
+      "set": [
+        {
+          "field": "m_SizeDelta.x",
+          "value": 250.0
+        },
+        {
+          "field": "m_SizeDelta.y",
+          "value": 60
+        },
+        {
+          "field": "m_AnchoredPosition.x",
+          "value": -240
+        },
+        {
+          "field": "m_Pivot.x",
+          "value": 0
+        },
+        {
+          "field": "m_Pivot.y",
+          "value": 0.5
+        }
+      ]
+    },
+    {
+      "id": 1903716315294730966,
+      "path": "GameInnerMonologue/TipText/tipT",
+      "original_sha256": "14774402ae20578f50c634114b7f7c9c6920f44fe451d1b3fa8ad604f4d46ce2",
+      "reason": "English sizing within fixed bounds",
+      "set": [
+        {
+          "field": "m_FontData.m_BestFit",
+          "value": true
+        },
+        {
+          "field": "m_FontData.m_FontSize",
+          "value": 32
+        },
+        {
+          "field": "m_FontData.m_MinSize",
+          "value": 20
+        },
+        {
+          "field": "m_FontData.m_MaxSize",
+          "value": 32
+        },
+        {
+          "field": "m_FontData.m_Alignment",
+          "value": 3
+        },
+        {
+          "field": "m_FontData.m_HorizontalOverflow",
+          "value": 0
+        },
+        {
+          "field": "m_FontData.m_VerticalOverflow",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": -8924853301044815637,
+      "path": "GameInnerMonologue/TipText/tipT",
+      "original_sha256": "b981ed9abff4dfa9742ddecb94c4131b6af196de3f45ff11520f5fe24b644979",
+      "reason": "Prevent preferred-size growth from defeating text fitting",
+      "set": [
+        {
+          "field": "m_HorizontalFit",
+          "value": 0
+        },
+        {
+          "field": "m_VerticalFit",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": -8278378946626897384,
+      "path": "GameThinkingHall/SelectCorrectClues/tip/Text3D_1",
+      "original_sha256": "fec9114e1b0c96639ff3b1de987e71c45b7ff828291cd735d72ea9162601b052",
+      "reason": "Keep English world-space labels within the original popup/header",
+      "set": [
+        {
+          "field": "m_CharacterSize",
+          "value": 0.036
+        }
+      ]
+    },
+    {
+      "id": 8439637179521194680,
+      "path": "GameThinkingHall/SelectCorrectClues/PopupWindow/TipText",
+      "original_sha256": "025a99bc3ed4ec12f71e0dd2cd8eaaf4fe92925214ab51a104db6abe74f2ad5c",
+      "reason": "Keep English world-space labels within the original popup/header",
+      "set": [
+        {
+          "field": "m_CharacterSize",
+          "value": 0.043
+        }
+      ]
+    },
+    {
+      "id": -6723918668349997428,
+      "path": "GameThinkingHall/SelectCorrectClues/PopupWindow/Tip",
+      "original_sha256": "5eb264f67b393df07916df8073d4863adb9b1f1d4c34fa49582b6220e6c488db",
+      "reason": "Keep English world-space labels within the original popup/header",
+      "set": [
+        {
+          "field": "m_CharacterSize",
+          "value": 0.038
+        },
+        {
+          "field": "m_Font.m_PathID",
+          "value": -5972512241397791634
+        }
+      ]
+    },
+    {
+      "id": 2875947107200657189,
+      "path": "GameThinkingHall/SelectCorrectClues/PopupWindow/closeBtn/TipText_1",
+      "original_sha256": "6e710ec423ddb79a108529174a93174887c2be557012b642845b894a10e0776f",
+      "reason": "Keep English world-space labels within the original popup/header",
+      "set": [
+        {
+          "field": "m_CharacterSize",
+          "value": 0.036
+        },
+        {
+          "field": "m_Font.m_PathID",
+          "value": -5972512241397791634
+        },
+        {
+          "field": "m_Anchor",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": -9134495497985593460,
+      "path": "GameRecord/Content/Text",
+      "original_sha256": "0b6a743ba9888b7d43d84b2286ff5557a32e992dc7a62d24f2536c15cde1d7bf",
+      "reason": "Separate evidence label, progress bar and total counter",
+      "set": [
+        {
+          "field": "m_Text",
+          "value": "Evidence"
+        },
+        {
+          "field": "m_FontData.m_FontSize",
+          "value": 30
+        },
+        {
+          "field": "m_FontData.m_BestFit",
+          "value": false
+        }
+      ]
+    },
+    {
+      "id": 2603228175579121317,
+      "path": "GameRecord/Content/Text",
+      "original_sha256": "683418e49f7f83c46cdf91a43877db6f9528a1feae5feb0249f10199169d7a73",
+      "reason": "Separate evidence label, progress bar and total counter",
+      "set": [
+        {
+          "field": "m_Text",
+          "value": "Total"
+        },
+        {
+          "field": "m_FontData.m_FontSize",
+          "value": 28
+        },
+        {
+          "field": "m_FontData.m_BestFit",
+          "value": false
+        }
+      ]
+    },
+    {
+      "id": 7356552246370537568,
+      "path": "GameRecord/Content/M_ClewProgress",
+      "original_sha256": "632901066edb8a2d4f02c2ea861fc553c6435bd28225b24f6d555d2383f168ef",
+      "reason": "Separate evidence label, progress bar and total counter",
+      "set": [
+        {
+          "field": "m_AnchoredPosition.x",
+          "value": 340.0
+        },
+        {
+          "field": "m_SizeDelta.x",
+          "value": 620.0
+        }
+      ]
+    },
+    {
+      "id": 6504587188340750400,
+      "path": "GameComputerInvestigation/NewsPage/Content/List/Viewport/Content",
+      "original_sha256": "eea19b4142897b23364fa927c0f4efb0bff500501cfde3f03db575ce97843a2f",
+      "reason": "Keep translated news rows inside the browser viewport",
+      "set": [
+        {
+          "field": "m_ChildControlWidth",
+          "value": 1
+        },
+        {
+          "field": "m_ChildForceExpandWidth",
+          "value": 1
+        },
+        {
+          "field": "m_Padding.m_Left",
+          "value": 12
+        },
+        {
+          "field": "m_Padding.m_Right",
+          "value": 12
+        }
+      ]
+    },
+    {
+      "id": 2105945848651332620,
+      "path": "GameThinkingHall/SelectCorrectClues/FeedBackBox/TipText",
+      "original_sha256": "f6d6ac4d15849b267d66ab318a2c9d163c506aa0002ea43569d39a41490908c7",
+      "reason": "Use the readable popup body font for English words instead of the LED face",
+      "set": [
+        {
+          "field": "m_Font.m_PathID",
+          "value": -5972512241397791634
+        }
+      ]
+    },
+    {
+      "id": 5707767841462983841,
+      "path": "GameThinkingHall/SelectCorrectClues/WinTip/TipText",
+      "original_sha256": "f191bde517d86a87c2391a61d97655277cfef6ad648735d61f4759e5b58b9813",
+      "reason": "Use the readable popup body font for English words instead of the LED face",
+      "set": [
+        {
+          "field": "m_Font.m_PathID",
+          "value": -5972512241397791634
+        }
+      ]
+    },
+    {
+      "id": -6535344102341341949,
+      "path": "GameThinkingHall/SelectCorrectClues/WinTip/TipText/MeshRenderer",
+      "original_sha256": "83589cbc44f1cc5de35367086243b3d8d4888d6fb98ba3acd1c60a66486084c4",
+      "reason": "Use the readable popup body font for English words instead of the LED face",
+      "set": [
+        {
+          "field": "m_Materials",
+          "value": [
+            {
+              "m_FileID": 0,
+              "m_PathID": -5260484058715444829
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -3423721830753370536,
+      "path": "GameThinkingHall/SelectCorrectClues/FeedBackBox/TipText/MeshRenderer",
+      "original_sha256": "1f9c2e4e9a25eebdee794e980a9620a97cb05d8f3a79ceecd1286a0d0266cff8",
+      "reason": "Use the readable popup body font for English words instead of the LED face",
+      "set": [
+        {
+          "field": "m_Materials",
+          "value": [
+            {
+              "m_FileID": 0,
+              "m_PathID": -5260484058715444829
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -3311724395343738838,
+      "path": "GameThinkingHall/SelectCorrectClues/PopupWindow/Tip/MeshRenderer",
+      "original_sha256": "bfe9232e453c16a6ae679f3482227453e2bc30f414988489b46f03e89caf1cf7",
+      "reason": "Use the readable popup body font for English words instead of the LED face",
+      "set": [
+        {
+          "field": "m_Materials",
+          "value": [
+            {
+              "m_FileID": 0,
+              "m_PathID": -5260484058715444829
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -1760344073315406699,
+      "path": "GameThinkingHall/SelectCorrectClues/PopupWindow/closeBtn/TipText_1/MeshRenderer",
+      "original_sha256": "dd5a65fc770218abd67de4f85675331da807b61ef3e059a68c3d7ccda02f54e7",
+      "reason": "Use the readable popup body font for English words instead of the LED face",
+      "set": [
+        {
+          "field": "m_Materials",
+          "value": [
+            {
+              "m_FileID": 0,
+              "m_PathID": -5260484058715444829
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": -2956308542459175840,
+      "path": "Translated SpriteRenderer label 200250",
+      "original_sha256": "02d8580335b7a9f905f97f24e37e3a46e5417c6c1ef97a01d5c7905d626b18bc",
+      "reason": "Replace original Chinese tight sprite geometry with full native texture bounds for English text",
+      "set": [
+        {
+          "field": "m_RD.m_SubMeshes",
+          "value": [
+            {
+              "firstByte": 0,
+              "indexCount": 6,
+              "topology": 0,
+              "baseVertex": 0,
+              "firstVertex": 0,
+              "vertexCount": 4,
+              "localAABB": {
+                "m_Center": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0
+                },
+                "m_Extent": {
+                  "x": 1.61,
+                  "y": 0.73,
+                  "z": 0
+                }
+              }
+            }
+          ]
+        },
+        {
+          "field": "m_RD.m_IndexBuffer",
+          "value": [
+            0,
+            0,
+            1,
+            0,
+            2,
+            0,
+            0,
+            0,
+            2,
+            0,
+            3,
+            0
+          ]
+        },
+        {
+          "field": "m_RD.m_VertexData.m_VertexCount",
+          "value": 4
+        },
+        {
+          "field": "m_RD.m_VertexData.m_DataSize",
+          "value": "7b14cebf48e13abf000000007b14cebf48e13a3f000000007b14ce3f48e13a3f000000007b14ce3f48e13abf000000000000000000000000000000000000803f0000803f0000803f0000803f00000000",
+          "encoding": "hex"
+        },
+        {
+          "field": "m_RD.settingsRaw",
+          "value": 0
+        },
+        {
+          "field": "m_RD.textureRect",
+          "value": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 322.0,
+            "height": 146.0
+          }
+        },
+        {
+          "field": "m_RD.textureRectOffset",
+          "value": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "field": "m_RD.uvTransform",
+          "value": {
+            "x": 100.0,
+            "y": 161.0,
+            "z": 100.0,
+            "w": 73.0
+          }
+        }
+      ]
+    },
+    {
+      "id": 7176128876490891750,
+      "path": "Translated SpriteRenderer label 200257",
+      "original_sha256": "e2a24b280e6eb4bb94d397425dc7748e9d63e25e7ef93a6e31a795d6288edbbd",
+      "reason": "Replace original Chinese tight sprite geometry with full native texture bounds for English text",
+      "set": [
+        {
+          "field": "m_RD.m_SubMeshes",
+          "value": [
+            {
+              "firstByte": 0,
+              "indexCount": 6,
+              "topology": 0,
+              "baseVertex": 0,
+              "firstVertex": 0,
+              "vertexCount": 4,
+              "localAABB": {
+                "m_Center": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0
+                },
+                "m_Extent": {
+                  "x": 1.525,
+                  "y": 0.445,
+                  "z": 0
+                }
+              }
+            }
+          ]
+        },
+        {
+          "field": "m_RD.m_IndexBuffer",
+          "value": [
+            0,
+            0,
+            1,
+            0,
+            2,
+            0,
+            0,
+            0,
+            2,
+            0,
+            3,
+            0
+          ]
+        },
+        {
+          "field": "m_RD.m_VertexData.m_VertexCount",
+          "value": 4
+        },
+        {
+          "field": "m_RD.m_VertexData.m_DataSize",
+          "value": "3333c3bf0ad7e3be000000003333c3bf0ad7e33e000000003333c33f0ad7e33e000000003333c33f0ad7e3be000000000000000000000000000000000000803f0000803f0000803f0000803f00000000",
+          "encoding": "hex"
+        },
+        {
+          "field": "m_RD.settingsRaw",
+          "value": 0
+        },
+        {
+          "field": "m_RD.textureRect",
+          "value": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 305.0,
+            "height": 89.0
+          }
+        },
+        {
+          "field": "m_RD.textureRectOffset",
+          "value": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "field": "m_RD.uvTransform",
+          "value": {
+            "x": 100.0,
+            "y": 152.5,
+            "z": 100.0,
+            "w": 44.5
+          }
+        }
+      ]
+    },
+    {
+      "id": 9210931661386600811,
+      "path": "Translated SpriteRenderer label 200261",
+      "original_sha256": "b191ef5baff3a647d5c6a57e00eb14e39f0c7676131854984b08c49fd194c0d2",
+      "reason": "Replace original Chinese tight sprite geometry with full native texture bounds for English text",
+      "set": [
+        {
+          "field": "m_RD.m_SubMeshes",
+          "value": [
+            {
+              "firstByte": 0,
+              "indexCount": 6,
+              "topology": 0,
+              "baseVertex": 0,
+              "firstVertex": 0,
+              "vertexCount": 4,
+              "localAABB": {
+                "m_Center": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0
+                },
+                "m_Extent": {
+                  "x": 1.235,
+                  "y": 0.535,
+                  "z": 0
+                }
+              }
+            }
+          ]
+        },
+        {
+          "field": "m_RD.m_IndexBuffer",
+          "value": [
+            0,
+            0,
+            1,
+            0,
+            2,
+            0,
+            0,
+            0,
+            2,
+            0,
+            3,
+            0
+          ]
+        },
+        {
+          "field": "m_RD.m_VertexData.m_VertexCount",
+          "value": 4
+        },
+        {
+          "field": "m_RD.m_VertexData.m_DataSize",
+          "value": "7b149ebfc3f508bf000000007b149ebfc3f5083f000000007b149e3fc3f5083f000000007b149e3fc3f508bf000000000000000000000000000000000000803f0000803f0000803f0000803f00000000",
+          "encoding": "hex"
+        },
+        {
+          "field": "m_RD.settingsRaw",
+          "value": 0
+        },
+        {
+          "field": "m_RD.textureRect",
+          "value": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 247.0,
+            "height": 107.0
+          }
+        },
+        {
+          "field": "m_RD.textureRectOffset",
+          "value": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "field": "m_RD.uvTransform",
+          "value": {
+            "x": 100.0,
+            "y": 123.5,
+            "z": 100.0,
+            "w": 53.5
+          }
+        }
+      ]
+    },
+    {
+      "id": 5356183807490608826,
+      "path": "Translated SpriteRenderer label 200276",
+      "original_sha256": "5c5190e21c379bb85a52d63b4bc83083ab73d6a40bf4b3aff8307cb366a9f306",
+      "reason": "Replace original Chinese tight sprite geometry with full native texture bounds for English text",
+      "set": [
+        {
+          "field": "m_RD.m_SubMeshes",
+          "value": [
+            {
+              "firstByte": 0,
+              "indexCount": 6,
+              "topology": 0,
+              "baseVertex": 0,
+              "firstVertex": 0,
+              "vertexCount": 4,
+              "localAABB": {
+                "m_Center": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0
+                },
+                "m_Extent": {
+                  "x": 0.56,
+                  "y": 0.525,
+                  "z": 0
+                }
+              }
+            }
+          ]
+        },
+        {
+          "field": "m_RD.m_IndexBuffer",
+          "value": [
+            0,
+            0,
+            1,
+            0,
+            2,
+            0,
+            0,
+            0,
+            2,
+            0,
+            3,
+            0
+          ]
+        },
+        {
+          "field": "m_RD.m_VertexData.m_VertexCount",
+          "value": 4
+        },
+        {
+          "field": "m_RD.m_VertexData.m_DataSize",
+          "value": "295c0fbf666606bf00000000295c0fbf6666063f00000000295c0f3f6666063f00000000295c0f3f666606bf000000000000000000000000000000000000803f0000803f0000803f0000803f00000000",
+          "encoding": "hex"
+        },
+        {
+          "field": "m_RD.settingsRaw",
+          "value": 0
+        },
+        {
+          "field": "m_RD.textureRect",
+          "value": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 112.0,
+            "height": 105.0
+          }
+        },
+        {
+          "field": "m_RD.textureRectOffset",
+          "value": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "field": "m_RD.uvTransform",
+          "value": {
+            "x": 100.0,
+            "y": 56.0,
+            "z": 100.0,
+            "w": 52.5
+          }
+        }
+      ]
+    },
+    {
+      "id": 6119736550700477520,
+      "path": "Translated SpriteRenderer label 200273",
+      "original_sha256": "16e206f23658a5edfe167fbaa9041a82eb9515af66a7e4ce9c53ef600b6d73a3",
+      "reason": "Replace original Chinese tight sprite geometry with full native texture bounds for English text",
+      "set": [
+        {
+          "field": "m_RD.m_SubMeshes",
+          "value": [
+            {
+              "firstByte": 0,
+              "indexCount": 6,
+              "topology": 0,
+              "baseVertex": 0,
+              "firstVertex": 0,
+              "vertexCount": 4,
+              "localAABB": {
+                "m_Center": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0
+                },
+                "m_Extent": {
+                  "x": 1.525,
+                  "y": 0.445,
+                  "z": 0
+                }
+              }
+            }
+          ]
+        },
+        {
+          "field": "m_RD.m_IndexBuffer",
+          "value": [
+            0,
+            0,
+            1,
+            0,
+            2,
+            0,
+            0,
+            0,
+            2,
+            0,
+            3,
+            0
+          ]
+        },
+        {
+          "field": "m_RD.m_VertexData.m_VertexCount",
+          "value": 4
+        },
+        {
+          "field": "m_RD.m_VertexData.m_DataSize",
+          "value": "3333c3bf0ad7e3be000000003333c3bf0ad7e33e000000003333c33f0ad7e33e000000003333c33f0ad7e3be000000000000000000000000000000000000803f0000803f0000803f0000803f00000000",
+          "encoding": "hex"
+        },
+        {
+          "field": "m_RD.settingsRaw",
+          "value": 0
+        },
+        {
+          "field": "m_RD.textureRect",
+          "value": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 305.0,
+            "height": 89.0
+          }
+        },
+        {
+          "field": "m_RD.textureRectOffset",
+          "value": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "field": "m_RD.uvTransform",
+          "value": {
+            "x": 100.0,
+            "y": 152.5,
+            "z": 100.0,
+            "w": 44.5
+          }
+        }
+      ]
+    },
+    {
+      "id": 7385256477665381590,
+      "path": "Translated SpriteRenderer label 200275",
+      "original_sha256": "0b1297a0ad9fe23b16948a4731972bdaa6c32ac4738cfbe5922162f5b226cf1a",
+      "reason": "Replace original Chinese tight sprite geometry with full native texture bounds for English text",
+      "set": [
+        {
+          "field": "m_RD.m_SubMeshes",
+          "value": [
+            {
+              "firstByte": 0,
+              "indexCount": 6,
+              "topology": 0,
+              "baseVertex": 0,
+              "firstVertex": 0,
+              "vertexCount": 4,
+              "localAABB": {
+                "m_Center": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0
+                },
+                "m_Extent": {
+                  "x": 1.195,
+                  "y": 0.54,
+                  "z": 0
+                }
+              }
+            }
+          ]
+        },
+        {
+          "field": "m_RD.m_IndexBuffer",
+          "value": [
+            0,
+            0,
+            1,
+            0,
+            2,
+            0,
+            0,
+            0,
+            2,
+            0,
+            3,
+            0
+          ]
+        },
+        {
+          "field": "m_RD.m_VertexData.m_VertexCount",
+          "value": 4
+        },
+        {
+          "field": "m_RD.m_VertexData.m_DataSize",
+          "value": "c3f598bf713d0abf00000000c3f598bf713d0a3f00000000c3f5983f713d0a3f00000000c3f5983f713d0abf000000000000000000000000000000000000803f0000803f0000803f0000803f00000000",
+          "encoding": "hex"
+        },
+        {
+          "field": "m_RD.settingsRaw",
+          "value": 0
+        },
+        {
+          "field": "m_RD.textureRect",
+          "value": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 239.0,
+            "height": 108.0
+          }
+        },
+        {
+          "field": "m_RD.textureRectOffset",
+          "value": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "field": "m_RD.uvTransform",
+          "value": {
+            "x": 100.0,
+            "y": 119.5,
+            "z": 100.0,
+            "w": 54.0
+          }
+        }
+      ]
+    },
+    {
+      "id": -5203175668472242736,
+      "path": "Translated SpriteRenderer label 200249",
+      "original_sha256": "18eccbb7bb6885d17648854b4180bf7e175e784203d19a590bd744f71d88dbeb",
+      "reason": "Replace original Chinese tight sprite geometry with full native texture bounds for English text",
+      "set": [
+        {
+          "field": "m_RD.m_SubMeshes",
+          "value": [
+            {
+              "firstByte": 0,
+              "indexCount": 6,
+              "topology": 0,
+              "baseVertex": 0,
+              "firstVertex": 0,
+              "vertexCount": 4,
+              "localAABB": {
+                "m_Center": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0
+                },
+                "m_Extent": {
+                  "x": 0.86,
+                  "y": 0.355,
+                  "z": 0
+                }
+              }
+            }
+          ]
+        },
+        {
+          "field": "m_RD.m_IndexBuffer",
+          "value": [
+            0,
+            0,
+            1,
+            0,
+            2,
+            0,
+            0,
+            0,
+            2,
+            0,
+            3,
+            0
+          ]
+        },
+        {
+          "field": "m_RD.m_VertexData.m_VertexCount",
+          "value": 4
+        },
+        {
+          "field": "m_RD.m_VertexData.m_DataSize",
+          "value": "f6285cbf8fc2b5be00000000f6285cbf8fc2b53e00000000f6285c3f8fc2b53e00000000f6285c3f8fc2b5be000000000000000000000000000000000000803f0000803f0000803f0000803f00000000",
+          "encoding": "hex"
+        },
+        {
+          "field": "m_RD.settingsRaw",
+          "value": 0
+        },
+        {
+          "field": "m_RD.textureRect",
+          "value": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 172.0,
+            "height": 71.0
+          }
+        },
+        {
+          "field": "m_RD.textureRectOffset",
+          "value": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "field": "m_RD.uvTransform",
+          "value": {
+            "x": 100.0,
+            "y": 86.0,
+            "z": 100.0,
+            "w": 35.5
+          }
+        }
+      ]
+    },
+    {
+      "id": -4205411384284669674,
+      "path": "Translated SpriteRenderer label 200264",
+      "original_sha256": "77aaf92ac47b87b3efdd7b6d3f89cd5b2bc9fd5709587085f17ce87619f6639e",
+      "reason": "Replace original Chinese tight sprite geometry with full native texture bounds for English text",
+      "set": [
+        {
+          "field": "m_RD.m_SubMeshes",
+          "value": [
+            {
+              "firstByte": 0,
+              "indexCount": 6,
+              "topology": 0,
+              "baseVertex": 0,
+              "firstVertex": 0,
+              "vertexCount": 4,
+              "localAABB": {
+                "m_Center": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0
+                },
+                "m_Extent": {
+                  "x": 1.455,
+                  "y": 0.435,
+                  "z": 0
+                }
+              }
+            }
+          ]
+        },
+        {
+          "field": "m_RD.m_IndexBuffer",
+          "value": [
+            0,
+            0,
+            1,
+            0,
+            2,
+            0,
+            0,
+            0,
+            2,
+            0,
+            3,
+            0
+          ]
+        },
+        {
+          "field": "m_RD.m_VertexData.m_VertexCount",
+          "value": 4
+        },
+        {
+          "field": "m_RD.m_VertexData.m_DataSize",
+          "value": "713dbabf52b8debe00000000713dbabf52b8de3e00000000713dba3f52b8de3e00000000713dba3f52b8debe000000000000000000000000000000000000803f0000803f0000803f0000803f00000000",
+          "encoding": "hex"
+        },
+        {
+          "field": "m_RD.settingsRaw",
+          "value": 0
+        },
+        {
+          "field": "m_RD.textureRect",
+          "value": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 291.0,
+            "height": 87.0
+          }
+        },
+        {
+          "field": "m_RD.textureRectOffset",
+          "value": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "field": "m_RD.uvTransform",
+          "value": {
+            "x": 100.0,
+            "y": 145.5,
+            "z": 100.0,
+            "w": 43.5
+          }
+        }
+      ]
+    },
+    {
+      "id": -4815774436555735389,
+      "path": "Translated SpriteRenderer label 200253",
+      "original_sha256": "5a3fd225c76ecbb7f3e80e20cadd1b8b5d65ded1e33d892cf76ffd89bd62a101",
+      "reason": "Replace original Chinese tight sprite geometry with full native texture bounds for English text",
+      "set": [
+        {
+          "field": "m_RD.m_SubMeshes",
+          "value": [
+            {
+              "firstByte": 0,
+              "indexCount": 6,
+              "topology": 0,
+              "baseVertex": 0,
+              "firstVertex": 0,
+              "vertexCount": 4,
+              "localAABB": {
+                "m_Center": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0
+                },
+                "m_Extent": {
+                  "x": 1.845,
+                  "y": 0.41,
+                  "z": 0
+                }
+              }
+            }
+          ]
+        },
+        {
+          "field": "m_RD.m_IndexBuffer",
+          "value": [
+            0,
+            0,
+            1,
+            0,
+            2,
+            0,
+            0,
+            0,
+            2,
+            0,
+            3,
+            0
+          ]
+        },
+        {
+          "field": "m_RD.m_VertexData.m_VertexCount",
+          "value": 4
+        },
+        {
+          "field": "m_RD.m_VertexData.m_DataSize",
+          "value": "f628ecbf85ebd1be00000000f628ecbf85ebd13e00000000f628ec3f85ebd13e00000000f628ec3f85ebd1be000000000000000000000000000000000000803f0000803f0000803f0000803f00000000",
+          "encoding": "hex"
+        },
+        {
+          "field": "m_RD.settingsRaw",
+          "value": 0
+        },
+        {
+          "field": "m_RD.textureRect",
+          "value": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 369.0,
+            "height": 82.0
+          }
+        },
+        {
+          "field": "m_RD.textureRectOffset",
+          "value": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "field": "m_RD.uvTransform",
+          "value": {
+            "x": 100.0,
+            "y": 184.5,
+            "z": 100.0,
+            "w": 41.0
+          }
+        }
+      ]
+    },
+    {
+      "id": -203017319328862227,
+      "path": "Translated SpriteRenderer label 200272",
+      "original_sha256": "7b02905077679034657754bec229e382246d3805de8b600fc117cd09b23b8b5e",
+      "reason": "Replace original Chinese tight sprite geometry with full native texture bounds for English text",
+      "set": [
+        {
+          "field": "m_RD.m_SubMeshes",
+          "value": [
+            {
+              "firstByte": 0,
+              "indexCount": 6,
+              "topology": 0,
+              "baseVertex": 0,
+              "firstVertex": 0,
+              "vertexCount": 4,
+              "localAABB": {
+                "m_Center": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0
+                },
+                "m_Extent": {
+                  "x": 1.91,
+                  "y": 0.425,
+                  "z": 0
+                }
+              }
+            }
+          ]
+        },
+        {
+          "field": "m_RD.m_IndexBuffer",
+          "value": [
+            0,
+            0,
+            1,
+            0,
+            2,
+            0,
+            0,
+            0,
+            2,
+            0,
+            3,
+            0
+          ]
+        },
+        {
+          "field": "m_RD.m_VertexData.m_VertexCount",
+          "value": 4
+        },
+        {
+          "field": "m_RD.m_VertexData.m_DataSize",
+          "value": "e17af4bf9a99d9be00000000e17af4bf9a99d93e00000000e17af43f9a99d93e00000000e17af43f9a99d9be000000000000000000000000000000000000803f0000803f0000803f0000803f00000000",
+          "encoding": "hex"
+        },
+        {
+          "field": "m_RD.settingsRaw",
+          "value": 0
+        },
+        {
+          "field": "m_RD.textureRect",
+          "value": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 382.0,
+            "height": 85.0
+          }
+        },
+        {
+          "field": "m_RD.textureRectOffset",
+          "value": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "field": "m_RD.uvTransform",
+          "value": {
+            "x": 100.0,
+            "y": 191.0,
+            "z": 100.0,
+            "w": 42.5
+          }
+        }
+      ]
+    },
+    {
+      "id": -7708627481175129004,
+      "path": "Translated SpriteRenderer label 602000",
+      "original_sha256": "8b96668ad5007875cbf00fd1cf2d3b32e5d96ffca9fa276ee8d50390a16b43eb",
+      "reason": "Replace original Chinese tight sprite geometry with full native texture bounds for English text",
+      "set": [
+        {
+          "field": "m_RD.m_SubMeshes",
+          "value": [
+            {
+              "firstByte": 0,
+              "indexCount": 6,
+              "topology": 0,
+              "baseVertex": 0,
+              "firstVertex": 0,
+              "vertexCount": 4,
+              "localAABB": {
+                "m_Center": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0
+                },
+                "m_Extent": {
+                  "x": 0.79,
+                  "y": 0.24,
+                  "z": 0
+                }
+              }
+            }
+          ]
+        },
+        {
+          "field": "m_RD.m_IndexBuffer",
+          "value": [
+            0,
+            0,
+            1,
+            0,
+            2,
+            0,
+            0,
+            0,
+            2,
+            0,
+            3,
+            0
+          ]
+        },
+        {
+          "field": "m_RD.m_VertexData.m_VertexCount",
+          "value": 4
+        },
+        {
+          "field": "m_RD.m_VertexData.m_DataSize",
+          "value": "713d4abf8fc275be00000000713d4abf8fc2753e00000000713d4a3f8fc2753e00000000713d4a3f8fc275be000000000000000000000000000000000000803f0000803f0000803f0000803f00000000",
+          "encoding": "hex"
+        },
+        {
+          "field": "m_RD.settingsRaw",
+          "value": 0
+        },
+        {
+          "field": "m_RD.textureRect",
+          "value": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 158.0,
+            "height": 48.0
+          }
+        },
+        {
+          "field": "m_RD.textureRectOffset",
+          "value": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "field": "m_RD.uvTransform",
+          "value": {
+            "x": 100.0,
+            "y": 79.0,
+            "z": 100.0,
+            "w": 24.0
+          }
+        }
+      ]
+    },
+    {
+      "id": 5622607557972994921,
+      "path": "Translated SpriteRenderer label 200246",
+      "original_sha256": "99bdf13ee59cb2df7b80db24301dbc0fb87e7cd587ba09d3c98701aaf3ee044c",
+      "reason": "Replace original Chinese tight sprite geometry with full native texture bounds for English text",
+      "set": [
+        {
+          "field": "m_RD.m_SubMeshes",
+          "value": [
+            {
+              "firstByte": 0,
+              "indexCount": 6,
+              "topology": 0,
+              "baseVertex": 0,
+              "firstVertex": 0,
+              "vertexCount": 4,
+              "localAABB": {
+                "m_Center": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0
+                },
+                "m_Extent": {
+                  "x": 1.225,
+                  "y": 0.55,
+                  "z": 0
+                }
+              }
+            }
+          ]
+        },
+        {
+          "field": "m_RD.m_IndexBuffer",
+          "value": [
+            0,
+            0,
+            1,
+            0,
+            2,
+            0,
+            0,
+            0,
+            2,
+            0,
+            3,
+            0
+          ]
+        },
+        {
+          "field": "m_RD.m_VertexData.m_VertexCount",
+          "value": 4
+        },
+        {
+          "field": "m_RD.m_VertexData.m_DataSize",
+          "value": "cdcc9cbfcdcc0cbf00000000cdcc9cbfcdcc0c3f00000000cdcc9c3fcdcc0c3f00000000cdcc9c3fcdcc0cbf000000000000000000000000000000000000803f0000803f0000803f0000803f00000000",
+          "encoding": "hex"
+        },
+        {
+          "field": "m_RD.settingsRaw",
+          "value": 0
+        },
+        {
+          "field": "m_RD.textureRect",
+          "value": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 245.0,
+            "height": 110.0
+          }
+        },
+        {
+          "field": "m_RD.textureRectOffset",
+          "value": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "field": "m_RD.uvTransform",
+          "value": {
+            "x": 100.0,
+            "y": 122.5,
+            "z": 100.0,
+            "w": 55.0
+          }
+        }
+      ]
+    },
+    {
+      "id": -8815755670420883976,
+      "path": "Translated SpriteRenderer label 200248",
+      "original_sha256": "47da36f76c940bdc794975666c4b0f0d1ae75b2d4eb0f73c0243ee084b022ccc",
+      "reason": "Replace original Chinese tight sprite geometry with full native texture bounds for English text",
+      "set": [
+        {
+          "field": "m_RD.m_SubMeshes",
+          "value": [
+            {
+              "firstByte": 0,
+              "indexCount": 6,
+              "topology": 0,
+              "baseVertex": 0,
+              "firstVertex": 0,
+              "vertexCount": 4,
+              "localAABB": {
+                "m_Center": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0
+                },
+                "m_Extent": {
+                  "x": 0.73,
+                  "y": 0.325,
+                  "z": 0
+                }
+              }
+            }
+          ]
+        },
+        {
+          "field": "m_RD.m_IndexBuffer",
+          "value": [
+            0,
+            0,
+            1,
+            0,
+            2,
+            0,
+            0,
+            0,
+            2,
+            0,
+            3,
+            0
+          ]
+        },
+        {
+          "field": "m_RD.m_VertexData.m_VertexCount",
+          "value": 4
+        },
+        {
+          "field": "m_RD.m_VertexData.m_DataSize",
+          "value": "48e13abf6666a6be0000000048e13abf6666a63e0000000048e13a3f6666a63e0000000048e13a3f6666a6be000000000000000000000000000000000000803f0000803f0000803f0000803f00000000",
+          "encoding": "hex"
+        },
+        {
+          "field": "m_RD.settingsRaw",
+          "value": 0
+        },
+        {
+          "field": "m_RD.textureRect",
+          "value": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 146.0,
+            "height": 65.0
+          }
+        },
+        {
+          "field": "m_RD.textureRectOffset",
+          "value": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "field": "m_RD.uvTransform",
+          "value": {
+            "x": 100.0,
+            "y": 73.0,
+            "z": 100.0,
+            "w": 32.5
+          }
+        }
+      ]
+    },
+    {
+      "id": -3505740805424784552,
+      "path": "Translated SpriteRenderer label 200270",
+      "original_sha256": "bb60fed257c95038f7194b9ad981fe81c5f92116f4b5434a4597d2cc01d61976",
+      "reason": "Replace original Chinese tight sprite geometry with full native texture bounds for English text",
+      "set": [
+        {
+          "field": "m_RD.m_SubMeshes",
+          "value": [
+            {
+              "firstByte": 0,
+              "indexCount": 6,
+              "topology": 0,
+              "baseVertex": 0,
+              "firstVertex": 0,
+              "vertexCount": 4,
+              "localAABB": {
+                "m_Center": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0
+                },
+                "m_Extent": {
+                  "x": 1.61,
+                  "y": 0.48,
+                  "z": 0
+                }
+              }
+            }
+          ]
+        },
+        {
+          "field": "m_RD.m_IndexBuffer",
+          "value": [
+            0,
+            0,
+            1,
+            0,
+            2,
+            0,
+            0,
+            0,
+            2,
+            0,
+            3,
+            0
+          ]
+        },
+        {
+          "field": "m_RD.m_VertexData.m_VertexCount",
+          "value": 4
+        },
+        {
+          "field": "m_RD.m_VertexData.m_DataSize",
+          "value": "7b14cebf8fc2f5be000000007b14cebf8fc2f53e000000007b14ce3f8fc2f53e000000007b14ce3f8fc2f5be000000000000000000000000000000000000803f0000803f0000803f0000803f00000000",
+          "encoding": "hex"
+        },
+        {
+          "field": "m_RD.settingsRaw",
+          "value": 0
+        },
+        {
+          "field": "m_RD.textureRect",
+          "value": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 322.0,
+            "height": 96.0
+          }
+        },
+        {
+          "field": "m_RD.textureRectOffset",
+          "value": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "field": "m_RD.uvTransform",
+          "value": {
+            "x": 100.0,
+            "y": 161.0,
+            "z": 100.0,
+            "w": 48.0
+          }
+        }
+      ]
+    },
+    {
+      "id": -1986543821968100406,
+      "path": "Translated SpriteRenderer label 200241",
+      "original_sha256": "426999fce36e29ca183f1814dc8a983d624b361000a2b10a811140f22e14c95b",
+      "reason": "Replace original Chinese tight sprite geometry with full native texture bounds for English text",
+      "set": [
+        {
+          "field": "m_RD.m_SubMeshes",
+          "value": [
+            {
+              "firstByte": 0,
+              "indexCount": 6,
+              "topology": 0,
+              "baseVertex": 0,
+              "firstVertex": 0,
+              "vertexCount": 4,
+              "localAABB": {
+                "m_Center": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0
+                },
+                "m_Extent": {
+                  "x": 1.435,
+                  "y": 0.7,
+                  "z": 0
+                }
+              }
+            }
+          ]
+        },
+        {
+          "field": "m_RD.m_IndexBuffer",
+          "value": [
+            0,
+            0,
+            1,
+            0,
+            2,
+            0,
+            0,
+            0,
+            2,
+            0,
+            3,
+            0
+          ]
+        },
+        {
+          "field": "m_RD.m_VertexData.m_VertexCount",
+          "value": 4
+        },
+        {
+          "field": "m_RD.m_VertexData.m_DataSize",
+          "value": "14aeb7bf333333bf0000000014aeb7bf3333333f0000000014aeb73f3333333f0000000014aeb73f333333bf000000000000000000000000000000000000803f0000803f0000803f0000803f00000000",
+          "encoding": "hex"
+        },
+        {
+          "field": "m_RD.settingsRaw",
+          "value": 0
+        },
+        {
+          "field": "m_RD.textureRect",
+          "value": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 287.0,
+            "height": 140.0
+          }
+        },
+        {
+          "field": "m_RD.textureRectOffset",
+          "value": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "field": "m_RD.uvTransform",
+          "value": {
+            "x": 100.0,
+            "y": 143.5,
+            "z": 100.0,
+            "w": 70.0
+          }
+        }
+      ]
+    },
+    {
+      "id": 3128296637098740511,
+      "path": "Translated SpriteRenderer label 200277",
+      "original_sha256": "4187497349508454d04685a84833fdc674cd7f8162ad60d944144fd5306e43b5",
+      "reason": "Replace original Chinese tight sprite geometry with full native texture bounds for English text",
+      "set": [
+        {
+          "field": "m_RD.m_SubMeshes",
+          "value": [
+            {
+              "firstByte": 0,
+              "indexCount": 6,
+              "topology": 0,
+              "baseVertex": 0,
+              "firstVertex": 0,
+              "vertexCount": 4,
+              "localAABB": {
+                "m_Center": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0
+                },
+                "m_Extent": {
+                  "x": 0.845,
+                  "y": 0.375,
+                  "z": 0
+                }
+              }
+            }
+          ]
+        },
+        {
+          "field": "m_RD.m_IndexBuffer",
+          "value": [
+            0,
+            0,
+            1,
+            0,
+            2,
+            0,
+            0,
+            0,
+            2,
+            0,
+            3,
+            0
+          ]
+        },
+        {
+          "field": "m_RD.m_VertexData.m_VertexCount",
+          "value": 4
+        },
+        {
+          "field": "m_RD.m_VertexData.m_DataSize",
+          "value": "ec5158bf0000c0be00000000ec5158bf0000c03e00000000ec51583f0000c03e00000000ec51583f0000c0be000000000000000000000000000000000000803f0000803f0000803f0000803f00000000",
+          "encoding": "hex"
+        },
+        {
+          "field": "m_RD.settingsRaw",
+          "value": 0
+        },
+        {
+          "field": "m_RD.textureRect",
+          "value": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 169.0,
+            "height": 75.0
+          }
+        },
+        {
+          "field": "m_RD.textureRectOffset",
+          "value": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "field": "m_RD.uvTransform",
+          "value": {
+            "x": 100.0,
+            "y": 84.5,
+            "z": 100.0,
+            "w": 37.5
+          }
+        }
+      ]
+    },
+    {
+      "id": 4651825689270058451,
+      "path": "Translated SpriteRenderer label 200262",
+      "original_sha256": "b40c55b62e3bf37077862bf0362f6a82f1f1f0ee89a0af1c914144d8c452e57c",
+      "reason": "Replace original Chinese tight sprite geometry with full native texture bounds for English text",
+      "set": [
+        {
+          "field": "m_RD.m_SubMeshes",
+          "value": [
+            {
+              "firstByte": 0,
+              "indexCount": 6,
+              "topology": 0,
+              "baseVertex": 0,
+              "firstVertex": 0,
+              "vertexCount": 4,
+              "localAABB": {
+                "m_Center": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0
+                },
+                "m_Extent": {
+                  "x": 1.91,
+                  "y": 0.425,
+                  "z": 0
+                }
+              }
+            }
+          ]
+        },
+        {
+          "field": "m_RD.m_IndexBuffer",
+          "value": [
+            0,
+            0,
+            1,
+            0,
+            2,
+            0,
+            0,
+            0,
+            2,
+            0,
+            3,
+            0
+          ]
+        },
+        {
+          "field": "m_RD.m_VertexData.m_VertexCount",
+          "value": 4
+        },
+        {
+          "field": "m_RD.m_VertexData.m_DataSize",
+          "value": "e17af4bf9a99d9be00000000e17af4bf9a99d93e00000000e17af43f9a99d93e00000000e17af43f9a99d9be000000000000000000000000000000000000803f0000803f0000803f0000803f00000000",
+          "encoding": "hex"
+        },
+        {
+          "field": "m_RD.settingsRaw",
+          "value": 0
+        },
+        {
+          "field": "m_RD.textureRect",
+          "value": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 382.0,
+            "height": 85.0
+          }
+        },
+        {
+          "field": "m_RD.textureRectOffset",
+          "value": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "field": "m_RD.uvTransform",
+          "value": {
+            "x": 100.0,
+            "y": 191.0,
+            "z": 100.0,
+            "w": 42.5
+          }
+        }
+      ]
+    },
+    {
+      "id": 504673985312614599,
+      "path": "Translated SpriteRenderer label 200271",
+      "original_sha256": "1ebf9db12ea8cf489ee8931376fbe343ff7780ffc72d5451c3463e7f0aabd157",
+      "reason": "Replace original Chinese tight sprite geometry with full native texture bounds for English text",
+      "set": [
+        {
+          "field": "m_RD.m_SubMeshes",
+          "value": [
+            {
+              "firstByte": 0,
+              "indexCount": 6,
+              "topology": 0,
+              "baseVertex": 0,
+              "firstVertex": 0,
+              "vertexCount": 4,
+              "localAABB": {
+                "m_Center": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0
+                },
+                "m_Extent": {
+                  "x": 1.235,
+                  "y": 0.535,
+                  "z": 0
+                }
+              }
+            }
+          ]
+        },
+        {
+          "field": "m_RD.m_IndexBuffer",
+          "value": [
+            0,
+            0,
+            1,
+            0,
+            2,
+            0,
+            0,
+            0,
+            2,
+            0,
+            3,
+            0
+          ]
+        },
+        {
+          "field": "m_RD.m_VertexData.m_VertexCount",
+          "value": 4
+        },
+        {
+          "field": "m_RD.m_VertexData.m_DataSize",
+          "value": "7b149ebfc3f508bf000000007b149ebfc3f5083f000000007b149e3fc3f5083f000000007b149e3fc3f508bf000000000000000000000000000000000000803f0000803f0000803f0000803f00000000",
+          "encoding": "hex"
+        },
+        {
+          "field": "m_RD.settingsRaw",
+          "value": 0
+        },
+        {
+          "field": "m_RD.textureRect",
+          "value": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 247.0,
+            "height": 107.0
+          }
+        },
+        {
+          "field": "m_RD.textureRectOffset",
+          "value": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "field": "m_RD.uvTransform",
+          "value": {
+            "x": 100.0,
+            "y": 123.5,
+            "z": 100.0,
+            "w": 53.5
+          }
+        }
+      ]
+    },
+    {
+      "id": -6859708696302508479,
+      "path": "Translated SpriteRenderer label 200243",
+      "original_sha256": "2aa79aa26aec5f35dbb9c168e9f22d9276c763e42e10ea62b94ceef992467436",
+      "reason": "Replace original Chinese tight sprite geometry with full native texture bounds for English text",
+      "set": [
+        {
+          "field": "m_RD.m_SubMeshes",
+          "value": [
+            {
+              "firstByte": 0,
+              "indexCount": 6,
+              "topology": 0,
+              "baseVertex": 0,
+              "firstVertex": 0,
+              "vertexCount": 4,
+              "localAABB": {
+                "m_Center": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0
+                },
+                "m_Extent": {
+                  "x": 1.025,
+                  "y": 0.455,
+                  "z": 0
+                }
+              }
+            }
+          ]
+        },
+        {
+          "field": "m_RD.m_IndexBuffer",
+          "value": [
+            0,
+            0,
+            1,
+            0,
+            2,
+            0,
+            0,
+            0,
+            2,
+            0,
+            3,
+            0
+          ]
+        },
+        {
+          "field": "m_RD.m_VertexData.m_VertexCount",
+          "value": 4
+        },
+        {
+          "field": "m_RD.m_VertexData.m_DataSize",
+          "value": "333383bfc3f5e8be00000000333383bfc3f5e83e000000003333833fc3f5e83e000000003333833fc3f5e8be000000000000000000000000000000000000803f0000803f0000803f0000803f00000000",
+          "encoding": "hex"
+        },
+        {
+          "field": "m_RD.settingsRaw",
+          "value": 0
+        },
+        {
+          "field": "m_RD.textureRect",
+          "value": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 205.0,
+            "height": 91.0
+          }
+        },
+        {
+          "field": "m_RD.textureRectOffset",
+          "value": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "field": "m_RD.uvTransform",
+          "value": {
+            "x": 100.0,
+            "y": 102.5,
+            "z": 100.0,
+            "w": 45.5
+          }
+        }
+      ]
+    },
+    {
+      "id": -1316551673573050007,
+      "path": "Translated SpriteRenderer label 200245",
+      "original_sha256": "206662b5cd1792586c689fe63e15a7397d21b635fe613bfa3c7ad66ef3a035d1",
+      "reason": "Replace original Chinese tight sprite geometry with full native texture bounds for English text",
+      "set": [
+        {
+          "field": "m_RD.m_SubMeshes",
+          "value": [
+            {
+              "firstByte": 0,
+              "indexCount": 6,
+              "topology": 0,
+              "baseVertex": 0,
+              "firstVertex": 0,
+              "vertexCount": 4,
+              "localAABB": {
+                "m_Center": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0
+                },
+                "m_Extent": {
+                  "x": 2.97,
+                  "y": 1.27,
+                  "z": 0
+                }
+              }
+            }
+          ]
+        },
+        {
+          "field": "m_RD.m_IndexBuffer",
+          "value": [
+            0,
+            0,
+            1,
+            0,
+            2,
+            0,
+            0,
+            0,
+            2,
+            0,
+            3,
+            0
+          ]
+        },
+        {
+          "field": "m_RD.m_VertexData.m_VertexCount",
+          "value": 4
+        },
+        {
+          "field": "m_RD.m_VertexData.m_DataSize",
+          "value": "7b143ec05c8fa2bf000000007b143ec05c8fa23f000000007b143e405c8fa23f000000007b143e405c8fa2bf000000000000000000000000000000000000803f0000803f0000803f0000803f00000000",
+          "encoding": "hex"
+        },
+        {
+          "field": "m_RD.settingsRaw",
+          "value": 0
+        },
+        {
+          "field": "m_RD.textureRect",
+          "value": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 594.0,
+            "height": 254.0
+          }
+        },
+        {
+          "field": "m_RD.textureRectOffset",
+          "value": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "field": "m_RD.uvTransform",
+          "value": {
+            "x": 100.0,
+            "y": 297.0,
+            "z": 100.0,
+            "w": 127.0
+          }
+        }
+      ]
+    },
+    {
+      "id": 6140323616747677625,
+      "path": "Translated SpriteRenderer label 200278",
+      "original_sha256": "ffb5d3d20f2ffcf4b5871eb842af506a0b03e76705bb59fc6f123187e79b2045",
+      "reason": "Replace original Chinese tight sprite geometry with full native texture bounds for English text",
+      "set": [
+        {
+          "field": "m_RD.m_SubMeshes",
+          "value": [
+            {
+              "firstByte": 0,
+              "indexCount": 6,
+              "topology": 0,
+              "baseVertex": 0,
+              "firstVertex": 0,
+              "vertexCount": 4,
+              "localAABB": {
+                "m_Center": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0
+                },
+                "m_Extent": {
+                  "x": 1.87,
+                  "y": 0.42,
+                  "z": 0
+                }
+              }
+            }
+          ]
+        },
+        {
+          "field": "m_RD.m_IndexBuffer",
+          "value": [
+            0,
+            0,
+            1,
+            0,
+            2,
+            0,
+            0,
+            0,
+            2,
+            0,
+            3,
+            0
+          ]
+        },
+        {
+          "field": "m_RD.m_VertexData.m_VertexCount",
+          "value": 4
+        },
+        {
+          "field": "m_RD.m_VertexData.m_DataSize",
+          "value": "295cefbf3d0ad7be00000000295cefbf3d0ad73e00000000295cef3f3d0ad73e00000000295cef3f3d0ad7be000000000000000000000000000000000000803f0000803f0000803f0000803f00000000",
+          "encoding": "hex"
+        },
+        {
+          "field": "m_RD.settingsRaw",
+          "value": 0
+        },
+        {
+          "field": "m_RD.textureRect",
+          "value": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 374.0,
+            "height": 84.0
+          }
+        },
+        {
+          "field": "m_RD.textureRectOffset",
+          "value": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "field": "m_RD.uvTransform",
+          "value": {
+            "x": 100.0,
+            "y": 187.0,
+            "z": 100.0,
+            "w": 42.0
+          }
+        }
+      ]
+    },
+    {
+      "id": 8045795689710882725,
+      "path": "Translated SpriteRenderer label 200258",
+      "original_sha256": "5f67fa4f5ebc737a29fe29918279b45568510a5c8a72667108b284733c3132a1",
+      "reason": "Replace original Chinese tight sprite geometry with full native texture bounds for English text",
+      "set": [
+        {
+          "field": "m_RD.m_SubMeshes",
+          "value": [
+            {
+              "firstByte": 0,
+              "indexCount": 6,
+              "topology": 0,
+              "baseVertex": 0,
+              "firstVertex": 0,
+              "vertexCount": 4,
+              "localAABB": {
+                "m_Center": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0
+                },
+                "m_Extent": {
+                  "x": 1.87,
+                  "y": 0.42,
+                  "z": 0
+                }
+              }
+            }
+          ]
+        },
+        {
+          "field": "m_RD.m_IndexBuffer",
+          "value": [
+            0,
+            0,
+            1,
+            0,
+            2,
+            0,
+            0,
+            0,
+            2,
+            0,
+            3,
+            0
+          ]
+        },
+        {
+          "field": "m_RD.m_VertexData.m_VertexCount",
+          "value": 4
+        },
+        {
+          "field": "m_RD.m_VertexData.m_DataSize",
+          "value": "295cefbf3d0ad7be00000000295cefbf3d0ad73e00000000295cef3f3d0ad73e00000000295cef3f3d0ad7be000000000000000000000000000000000000803f0000803f0000803f0000803f00000000",
+          "encoding": "hex"
+        },
+        {
+          "field": "m_RD.settingsRaw",
+          "value": 0
+        },
+        {
+          "field": "m_RD.textureRect",
+          "value": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 374.0,
+            "height": 84.0
+          }
+        },
+        {
+          "field": "m_RD.textureRectOffset",
+          "value": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "field": "m_RD.uvTransform",
+          "value": {
+            "x": 100.0,
+            "y": 187.0,
+            "z": 100.0,
+            "w": 42.0
+          }
+        }
+      ]
+    },
+    {
+      "id": -663008862681152955,
+      "path": "Translated SpriteRenderer label 200247",
+      "original_sha256": "82bc0e5417298945a4354236d368cbd1d5c8edce57ee87db71d04d15360a1720",
+      "reason": "Replace original Chinese tight sprite geometry with full native texture bounds for English text",
+      "set": [
+        {
+          "field": "m_RD.m_SubMeshes",
+          "value": [
+            {
+              "firstByte": 0,
+              "indexCount": 6,
+              "topology": 0,
+              "baseVertex": 0,
+              "firstVertex": 0,
+              "vertexCount": 4,
+              "localAABB": {
+                "m_Center": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0
+                },
+                "m_Extent": {
+                  "x": 3.615,
+                  "y": 1.62,
+                  "z": 0
+                }
+              }
+            }
+          ]
+        },
+        {
+          "field": "m_RD.m_IndexBuffer",
+          "value": [
+            0,
+            0,
+            1,
+            0,
+            2,
+            0,
+            0,
+            0,
+            2,
+            0,
+            3,
+            0
+          ]
+        },
+        {
+          "field": "m_RD.m_VertexData.m_VertexCount",
+          "value": 4
+        },
+        {
+          "field": "m_RD.m_VertexData.m_DataSize",
+          "value": "295c67c0295ccfbf00000000295c67c0295ccf3f00000000295c6740295ccf3f00000000295c6740295ccfbf000000000000000000000000000000000000803f0000803f0000803f0000803f00000000",
+          "encoding": "hex"
+        },
+        {
+          "field": "m_RD.settingsRaw",
+          "value": 0
+        },
+        {
+          "field": "m_RD.textureRect",
+          "value": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 723.0,
+            "height": 324.0
+          }
+        },
+        {
+          "field": "m_RD.textureRectOffset",
+          "value": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "field": "m_RD.uvTransform",
+          "value": {
+            "x": 100.0,
+            "y": 361.5,
+            "z": 100.0,
+            "w": 162.0
+          }
+        }
+      ]
+    },
+    {
+      "id": 7176833305025122440,
+      "path": "Translated SpriteRenderer label 200274",
+      "original_sha256": "97384aebd21d3d594d7ad927376815e81e7879754f754952e5cd4e1b39051d53",
+      "reason": "Replace original Chinese tight sprite geometry with full native texture bounds for English text",
+      "set": [
+        {
+          "field": "m_RD.m_SubMeshes",
+          "value": [
+            {
+              "firstByte": 0,
+              "indexCount": 6,
+              "topology": 0,
+              "baseVertex": 0,
+              "firstVertex": 0,
+              "vertexCount": 4,
+              "localAABB": {
+                "m_Center": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0
+                },
+                "m_Extent": {
+                  "x": 1.455,
+                  "y": 0.435,
+                  "z": 0
+                }
+              }
+            }
+          ]
+        },
+        {
+          "field": "m_RD.m_IndexBuffer",
+          "value": [
+            0,
+            0,
+            1,
+            0,
+            2,
+            0,
+            0,
+            0,
+            2,
+            0,
+            3,
+            0
+          ]
+        },
+        {
+          "field": "m_RD.m_VertexData.m_VertexCount",
+          "value": 4
+        },
+        {
+          "field": "m_RD.m_VertexData.m_DataSize",
+          "value": "713dbabf52b8debe00000000713dbabf52b8de3e00000000713dba3f52b8de3e00000000713dba3f52b8debe000000000000000000000000000000000000803f0000803f0000803f0000803f00000000",
+          "encoding": "hex"
+        },
+        {
+          "field": "m_RD.settingsRaw",
+          "value": 0
+        },
+        {
+          "field": "m_RD.textureRect",
+          "value": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 291.0,
+            "height": 87.0
+          }
+        },
+        {
+          "field": "m_RD.textureRectOffset",
+          "value": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "field": "m_RD.uvTransform",
+          "value": {
+            "x": 100.0,
+            "y": 145.5,
+            "z": 100.0,
+            "w": 43.5
+          }
+        }
+      ]
+    },
+    {
+      "id": -6683318337759986771,
+      "path": "Translated SpriteRenderer label 200244",
+      "original_sha256": "42ba799e3b583bb8edb58851e131f42288d2d43b4aeb3fe1921dd8ec1635adc1",
+      "reason": "Replace original Chinese tight sprite geometry with full native texture bounds for English text",
+      "set": [
+        {
+          "field": "m_RD.m_SubMeshes",
+          "value": [
+            {
+              "firstByte": 0,
+              "indexCount": 6,
+              "topology": 0,
+              "baseVertex": 0,
+              "firstVertex": 0,
+              "vertexCount": 4,
+              "localAABB": {
+                "m_Center": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0
+                },
+                "m_Extent": {
+                  "x": 0.73,
+                  "y": 0.32,
+                  "z": 0
+                }
+              }
+            }
+          ]
+        },
+        {
+          "field": "m_RD.m_IndexBuffer",
+          "value": [
+            0,
+            0,
+            1,
+            0,
+            2,
+            0,
+            0,
+            0,
+            2,
+            0,
+            3,
+            0
+          ]
+        },
+        {
+          "field": "m_RD.m_VertexData.m_VertexCount",
+          "value": 4
+        },
+        {
+          "field": "m_RD.m_VertexData.m_DataSize",
+          "value": "48e13abf0ad7a3be0000000048e13abf0ad7a33e0000000048e13a3f0ad7a33e0000000048e13a3f0ad7a3be000000000000000000000000000000000000803f0000803f0000803f0000803f00000000",
+          "encoding": "hex"
+        },
+        {
+          "field": "m_RD.settingsRaw",
+          "value": 0
+        },
+        {
+          "field": "m_RD.textureRect",
+          "value": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 146.0,
+            "height": 64.0
+          }
+        },
+        {
+          "field": "m_RD.textureRectOffset",
+          "value": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "field": "m_RD.uvTransform",
+          "value": {
+            "x": 100.0,
+            "y": 73.0,
+            "z": 100.0,
+            "w": 32.0
+          }
+        }
+      ]
+    },
+    {
+      "id": 1206541476469694006,
+      "path": "Translated SpriteRenderer label 200267",
+      "original_sha256": "d2f847283f1c06658ffa8c4b1046924759452d3b86ee383b1bb727916c11b7a4",
+      "reason": "Replace original Chinese tight sprite geometry with full native texture bounds for English text",
+      "set": [
+        {
+          "field": "m_RD.m_SubMeshes",
+          "value": [
+            {
+              "firstByte": 0,
+              "indexCount": 6,
+              "topology": 0,
+              "baseVertex": 0,
+              "firstVertex": 0,
+              "vertexCount": 4,
+              "localAABB": {
+                "m_Center": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0
+                },
+                "m_Extent": {
+                  "x": 0.845,
+                  "y": 0.375,
+                  "z": 0
+                }
+              }
+            }
+          ]
+        },
+        {
+          "field": "m_RD.m_IndexBuffer",
+          "value": [
+            0,
+            0,
+            1,
+            0,
+            2,
+            0,
+            0,
+            0,
+            2,
+            0,
+            3,
+            0
+          ]
+        },
+        {
+          "field": "m_RD.m_VertexData.m_VertexCount",
+          "value": 4
+        },
+        {
+          "field": "m_RD.m_VertexData.m_DataSize",
+          "value": "ec5158bf0000c0be00000000ec5158bf0000c03e00000000ec51583f0000c03e00000000ec51583f0000c0be000000000000000000000000000000000000803f0000803f0000803f0000803f00000000",
+          "encoding": "hex"
+        },
+        {
+          "field": "m_RD.settingsRaw",
+          "value": 0
+        },
+        {
+          "field": "m_RD.textureRect",
+          "value": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 169.0,
+            "height": 75.0
+          }
+        },
+        {
+          "field": "m_RD.textureRectOffset",
+          "value": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "field": "m_RD.uvTransform",
+          "value": {
+            "x": 100.0,
+            "y": 84.5,
+            "z": 100.0,
+            "w": 37.5
+          }
+        }
+      ]
+    },
+    {
+      "id": 1172295873651792293,
+      "path": "Translated SpriteRenderer label 200238",
+      "original_sha256": "616a17bf8908c7232679d75f6fe1092915c3ac8e92ed39898c7b64e4b79fa403",
+      "reason": "Replace original Chinese tight sprite geometry with full native texture bounds for English text",
+      "set": [
+        {
+          "field": "m_RD.m_SubMeshes",
+          "value": [
+            {
+              "firstByte": 0,
+              "indexCount": 6,
+              "topology": 0,
+              "baseVertex": 0,
+              "firstVertex": 0,
+              "vertexCount": 4,
+              "localAABB": {
+                "m_Center": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0
+                },
+                "m_Extent": {
+                  "x": 2.365,
+                  "y": 1.1,
+                  "z": 0
+                }
+              }
+            }
+          ]
+        },
+        {
+          "field": "m_RD.m_IndexBuffer",
+          "value": [
+            0,
+            0,
+            1,
+            0,
+            2,
+            0,
+            0,
+            0,
+            2,
+            0,
+            3,
+            0
+          ]
+        },
+        {
+          "field": "m_RD.m_VertexData.m_VertexCount",
+          "value": 4
+        },
+        {
+          "field": "m_RD.m_VertexData.m_DataSize",
+          "value": "295c17c0cdcc8cbf00000000295c17c0cdcc8c3f00000000295c1740cdcc8c3f00000000295c1740cdcc8cbf000000000000000000000000000000000000803f0000803f0000803f0000803f00000000",
+          "encoding": "hex"
+        },
+        {
+          "field": "m_RD.settingsRaw",
+          "value": 0
+        },
+        {
+          "field": "m_RD.textureRect",
+          "value": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 473.0,
+            "height": 220.0
+          }
+        },
+        {
+          "field": "m_RD.textureRectOffset",
+          "value": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "field": "m_RD.uvTransform",
+          "value": {
+            "x": 100.0,
+            "y": 236.5,
+            "z": 100.0,
+            "w": 110.0
+          }
+        }
+      ]
+    },
+    {
+      "id": -4359508649237594812,
+      "path": "Translated SpriteRenderer label 200242",
+      "original_sha256": "a9f6e1f6ff5acf3900aadc1a1b4e40a6b60aca6db0878e82bc3438d00ed760d6",
+      "reason": "Replace original Chinese tight sprite geometry with full native texture bounds for English text",
+      "set": [
+        {
+          "field": "m_RD.m_SubMeshes",
+          "value": [
+            {
+              "firstByte": 0,
+              "indexCount": 6,
+              "topology": 0,
+              "baseVertex": 0,
+              "firstVertex": 0,
+              "vertexCount": 4,
+              "localAABB": {
+                "m_Center": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0
+                },
+                "m_Extent": {
+                  "x": 3.65,
+                  "y": 1.58,
+                  "z": 0
+                }
+              }
+            }
+          ]
+        },
+        {
+          "field": "m_RD.m_IndexBuffer",
+          "value": [
+            0,
+            0,
+            1,
+            0,
+            2,
+            0,
+            0,
+            0,
+            2,
+            0,
+            3,
+            0
+          ]
+        },
+        {
+          "field": "m_RD.m_VertexData.m_VertexCount",
+          "value": 4
+        },
+        {
+          "field": "m_RD.m_VertexData.m_DataSize",
+          "value": "9a9969c0713dcabf000000009a9969c0713dca3f000000009a996940713dca3f000000009a996940713dcabf000000000000000000000000000000000000803f0000803f0000803f0000803f00000000",
+          "encoding": "hex"
+        },
+        {
+          "field": "m_RD.settingsRaw",
+          "value": 0
+        },
+        {
+          "field": "m_RD.textureRect",
+          "value": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 730.0,
+            "height": 316.0
+          }
+        },
+        {
+          "field": "m_RD.textureRectOffset",
+          "value": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "field": "m_RD.uvTransform",
+          "value": {
+            "x": 100.0,
+            "y": 365.0,
+            "z": 100.0,
+            "w": 158.0
+          }
+        }
+      ]
+    },
+    {
+      "id": -7095549017142010505,
+      "path": "Translated SpriteRenderer label 200266",
+      "original_sha256": "87e4d9cf64210eddc7d33fbc8e60ccbcf226e7f77f72d3d68ab13469309900c4",
+      "reason": "Replace original Chinese tight sprite geometry with full native texture bounds for English text",
+      "set": [
+        {
+          "field": "m_RD.m_SubMeshes",
+          "value": [
+            {
+              "firstByte": 0,
+              "indexCount": 6,
+              "topology": 0,
+              "baseVertex": 0,
+              "firstVertex": 0,
+              "vertexCount": 4,
+              "localAABB": {
+                "m_Center": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0
+                },
+                "m_Extent": {
+                  "x": 0.56,
+                  "y": 0.525,
+                  "z": 0
+                }
+              }
+            }
+          ]
+        },
+        {
+          "field": "m_RD.m_IndexBuffer",
+          "value": [
+            0,
+            0,
+            1,
+            0,
+            2,
+            0,
+            0,
+            0,
+            2,
+            0,
+            3,
+            0
+          ]
+        },
+        {
+          "field": "m_RD.m_VertexData.m_VertexCount",
+          "value": 4
+        },
+        {
+          "field": "m_RD.m_VertexData.m_DataSize",
+          "value": "295c0fbf666606bf00000000295c0fbf6666063f00000000295c0f3f6666063f00000000295c0f3f666606bf000000000000000000000000000000000000803f0000803f0000803f0000803f00000000",
+          "encoding": "hex"
+        },
+        {
+          "field": "m_RD.settingsRaw",
+          "value": 0
+        },
+        {
+          "field": "m_RD.textureRect",
+          "value": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 112.0,
+            "height": 105.0
+          }
+        },
+        {
+          "field": "m_RD.textureRectOffset",
+          "value": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "field": "m_RD.uvTransform",
+          "value": {
+            "x": 100.0,
+            "y": 56.0,
+            "z": 100.0,
+            "w": 52.5
+          }
+        }
+      ]
+    },
+    {
+      "id": -464553424433130104,
+      "path": "Translated SpriteRenderer label 200260",
+      "original_sha256": "14983ef5e3f5aa6fe71d7eb580127e053d68918a0cfc8a5392aba953d9534f1f",
+      "reason": "Replace original Chinese tight sprite geometry with full native texture bounds for English text",
+      "set": [
+        {
+          "field": "m_RD.m_SubMeshes",
+          "value": [
+            {
+              "firstByte": 0,
+              "indexCount": 6,
+              "topology": 0,
+              "baseVertex": 0,
+              "firstVertex": 0,
+              "vertexCount": 4,
+              "localAABB": {
+                "m_Center": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0
+                },
+                "m_Extent": {
+                  "x": 1.61,
+                  "y": 0.48,
+                  "z": 0
+                }
+              }
+            }
+          ]
+        },
+        {
+          "field": "m_RD.m_IndexBuffer",
+          "value": [
+            0,
+            0,
+            1,
+            0,
+            2,
+            0,
+            0,
+            0,
+            2,
+            0,
+            3,
+            0
+          ]
+        },
+        {
+          "field": "m_RD.m_VertexData.m_VertexCount",
+          "value": 4
+        },
+        {
+          "field": "m_RD.m_VertexData.m_DataSize",
+          "value": "7b14cebf8fc2f5be000000007b14cebf8fc2f53e000000007b14ce3f8fc2f53e000000007b14ce3f8fc2f5be000000000000000000000000000000000000803f0000803f0000803f0000803f00000000",
+          "encoding": "hex"
+        },
+        {
+          "field": "m_RD.settingsRaw",
+          "value": 0
+        },
+        {
+          "field": "m_RD.textureRect",
+          "value": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 322.0,
+            "height": 96.0
+          }
+        },
+        {
+          "field": "m_RD.textureRectOffset",
+          "value": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "field": "m_RD.uvTransform",
+          "value": {
+            "x": 100.0,
+            "y": 161.0,
+            "z": 100.0,
+            "w": 48.0
+          }
+        }
+      ]
+    },
+    {
+      "id": -331132088615281889,
+      "path": "Translated SpriteRenderer label 200269",
+      "original_sha256": "29fa417d14a15512c4c8461c6275912c5286bb61dc5ec8b098f79a4e4f35c96a",
+      "reason": "Replace original Chinese tight sprite geometry with full native texture bounds for English text",
+      "set": [
+        {
+          "field": "m_RD.m_SubMeshes",
+          "value": [
+            {
+              "firstByte": 0,
+              "indexCount": 6,
+              "topology": 0,
+              "baseVertex": 0,
+              "firstVertex": 0,
+              "vertexCount": 4,
+              "localAABB": {
+                "m_Center": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0
+                },
+                "m_Extent": {
+                  "x": 1.845,
+                  "y": 0.41,
+                  "z": 0
+                }
+              }
+            }
+          ]
+        },
+        {
+          "field": "m_RD.m_IndexBuffer",
+          "value": [
+            0,
+            0,
+            1,
+            0,
+            2,
+            0,
+            0,
+            0,
+            2,
+            0,
+            3,
+            0
+          ]
+        },
+        {
+          "field": "m_RD.m_VertexData.m_VertexCount",
+          "value": 4
+        },
+        {
+          "field": "m_RD.m_VertexData.m_DataSize",
+          "value": "f628ecbf85ebd1be00000000f628ecbf85ebd13e00000000f628ec3f85ebd13e00000000f628ec3f85ebd1be000000000000000000000000000000000000803f0000803f0000803f0000803f00000000",
+          "encoding": "hex"
+        },
+        {
+          "field": "m_RD.settingsRaw",
+          "value": 0
+        },
+        {
+          "field": "m_RD.textureRect",
+          "value": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 369.0,
+            "height": 82.0
+          }
+        },
+        {
+          "field": "m_RD.textureRectOffset",
+          "value": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "field": "m_RD.uvTransform",
+          "value": {
+            "x": 100.0,
+            "y": 184.5,
+            "z": 100.0,
+            "w": 41.0
+          }
+        }
+      ]
+    },
+    {
+      "id": 3072150456939884364,
+      "path": "Translated SpriteRenderer label 200251",
+      "original_sha256": "db63ec0d16083df3daae5bb7910d21bc1b375affa82244cc90841e2948b2f8eb",
+      "reason": "Replace original Chinese tight sprite geometry with full native texture bounds for English text",
+      "set": [
+        {
+          "field": "m_RD.m_SubMeshes",
+          "value": [
+            {
+              "firstByte": 0,
+              "indexCount": 6,
+              "topology": 0,
+              "baseVertex": 0,
+              "firstVertex": 0,
+              "vertexCount": 4,
+              "localAABB": {
+                "m_Center": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0
+                },
+                "m_Extent": {
+                  "x": 2.21,
+                  "y": 0.955,
+                  "z": 0
+                }
+              }
+            }
+          ]
+        },
+        {
+          "field": "m_RD.m_IndexBuffer",
+          "value": [
+            0,
+            0,
+            1,
+            0,
+            2,
+            0,
+            0,
+            0,
+            2,
+            0,
+            3,
+            0
+          ]
+        },
+        {
+          "field": "m_RD.m_VertexData.m_VertexCount",
+          "value": 4
+        },
+        {
+          "field": "m_RD.m_VertexData.m_DataSize",
+          "value": "a4700dc0e17a74bf00000000a4700dc0e17a743f00000000a4700d40e17a743f00000000a4700d40e17a74bf000000000000000000000000000000000000803f0000803f0000803f0000803f00000000",
+          "encoding": "hex"
+        },
+        {
+          "field": "m_RD.settingsRaw",
+          "value": 0
+        },
+        {
+          "field": "m_RD.textureRect",
+          "value": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 442.0,
+            "height": 191.0
+          }
+        },
+        {
+          "field": "m_RD.textureRectOffset",
+          "value": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "field": "m_RD.uvTransform",
+          "value": {
+            "x": 100.0,
+            "y": 221.0,
+            "z": 100.0,
+            "w": 95.5
+          }
+        }
+      ]
+    },
+    {
+      "id": -8117460591081509811,
+      "path": "Translated SpriteRenderer label 200239",
+      "original_sha256": "9cc4c5dabd80eb9853d87e9b964d4713547ac715800c51bc318b7494f1e06ad6",
+      "reason": "Replace original Chinese tight sprite geometry with full native texture bounds for English text",
+      "set": [
+        {
+          "field": "m_RD.m_SubMeshes",
+          "value": [
+            {
+              "firstByte": 0,
+              "indexCount": 6,
+              "topology": 0,
+              "baseVertex": 0,
+              "firstVertex": 0,
+              "vertexCount": 4,
+              "localAABB": {
+                "m_Center": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0
+                },
+                "m_Extent": {
+                  "x": 1.27,
+                  "y": 0.55,
+                  "z": 0
+                }
+              }
+            }
+          ]
+        },
+        {
+          "field": "m_RD.m_IndexBuffer",
+          "value": [
+            0,
+            0,
+            1,
+            0,
+            2,
+            0,
+            0,
+            0,
+            2,
+            0,
+            3,
+            0
+          ]
+        },
+        {
+          "field": "m_RD.m_VertexData.m_VertexCount",
+          "value": 4
+        },
+        {
+          "field": "m_RD.m_VertexData.m_DataSize",
+          "value": "5c8fa2bfcdcc0cbf000000005c8fa2bfcdcc0c3f000000005c8fa23fcdcc0c3f000000005c8fa23fcdcc0cbf000000000000000000000000000000000000803f0000803f0000803f0000803f00000000",
+          "encoding": "hex"
+        },
+        {
+          "field": "m_RD.settingsRaw",
+          "value": 0
+        },
+        {
+          "field": "m_RD.textureRect",
+          "value": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 254.0,
+            "height": 110.0
+          }
+        },
+        {
+          "field": "m_RD.textureRectOffset",
+          "value": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "field": "m_RD.uvTransform",
+          "value": {
+            "x": 100.0,
+            "y": 127.0,
+            "z": 100.0,
+            "w": 55.0
+          }
+        }
+      ]
+    },
+    {
+      "id": -369084581652094264,
+      "path": "Translated SpriteRenderer label 200265",
+      "original_sha256": "650b3a2e719ec561bebe40bfde1a0cd7d20e04e57cf5ed6e482df61c9f6f8321",
+      "reason": "Replace original Chinese tight sprite geometry with full native texture bounds for English text",
+      "set": [
+        {
+          "field": "m_RD.m_SubMeshes",
+          "value": [
+            {
+              "firstByte": 0,
+              "indexCount": 6,
+              "topology": 0,
+              "baseVertex": 0,
+              "firstVertex": 0,
+              "vertexCount": 4,
+              "localAABB": {
+                "m_Center": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0
+                },
+                "m_Extent": {
+                  "x": 1.195,
+                  "y": 0.54,
+                  "z": 0
+                }
+              }
+            }
+          ]
+        },
+        {
+          "field": "m_RD.m_IndexBuffer",
+          "value": [
+            0,
+            0,
+            1,
+            0,
+            2,
+            0,
+            0,
+            0,
+            2,
+            0,
+            3,
+            0
+          ]
+        },
+        {
+          "field": "m_RD.m_VertexData.m_VertexCount",
+          "value": 4
+        },
+        {
+          "field": "m_RD.m_VertexData.m_DataSize",
+          "value": "c3f598bf713d0abf00000000c3f598bf713d0a3f00000000c3f5983f713d0a3f00000000c3f5983f713d0abf000000000000000000000000000000000000803f0000803f0000803f0000803f00000000",
+          "encoding": "hex"
+        },
+        {
+          "field": "m_RD.settingsRaw",
+          "value": 0
+        },
+        {
+          "field": "m_RD.textureRect",
+          "value": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 239.0,
+            "height": 108.0
+          }
+        },
+        {
+          "field": "m_RD.textureRectOffset",
+          "value": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "field": "m_RD.uvTransform",
+          "value": {
+            "x": 100.0,
+            "y": 119.5,
+            "z": 100.0,
+            "w": 54.0
+          }
+        }
+      ]
+    },
+    {
+      "id": 1295072423845380734,
+      "path": "Translated SpriteRenderer label 200240",
+      "original_sha256": "7c4f0117b60f3494cb99799405c7ad2e01b737e0d0fde75b06ee4f6bece0fc01",
+      "reason": "Replace original Chinese tight sprite geometry with full native texture bounds for English text",
+      "set": [
+        {
+          "field": "m_RD.m_SubMeshes",
+          "value": [
+            {
+              "firstByte": 0,
+              "indexCount": 6,
+              "topology": 0,
+              "baseVertex": 0,
+              "firstVertex": 0,
+              "vertexCount": 4,
+              "localAABB": {
+                "m_Center": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0
+                },
+                "m_Extent": {
+                  "x": 1.9,
+                  "y": 0.85,
+                  "z": 0
+                }
+              }
+            }
+          ]
+        },
+        {
+          "field": "m_RD.m_IndexBuffer",
+          "value": [
+            0,
+            0,
+            1,
+            0,
+            2,
+            0,
+            0,
+            0,
+            2,
+            0,
+            3,
+            0
+          ]
+        },
+        {
+          "field": "m_RD.m_VertexData.m_VertexCount",
+          "value": 4
+        },
+        {
+          "field": "m_RD.m_VertexData.m_DataSize",
+          "value": "3333f3bf9a9959bf000000003333f3bf9a99593f000000003333f33f9a99593f000000003333f33f9a9959bf000000000000000000000000000000000000803f0000803f0000803f0000803f00000000",
+          "encoding": "hex"
+        },
+        {
+          "field": "m_RD.settingsRaw",
+          "value": 0
+        },
+        {
+          "field": "m_RD.textureRect",
+          "value": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 380.0,
+            "height": 170.0
+          }
+        },
+        {
+          "field": "m_RD.textureRectOffset",
+          "value": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "field": "m_RD.uvTransform",
+          "value": {
+            "x": 100.0,
+            "y": 190.0,
+            "z": 100.0,
+            "w": 85.0
+          }
+        }
+      ]
+    }
+  ]
+}

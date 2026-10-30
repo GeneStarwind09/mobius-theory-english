@@ -94,3 +94,10 @@ I've got to go.
 00:03:15,650 --> 00:03:17,650
 There are still so many loose ends.
 
+25
+00:03:18,000 --> 00:03:19,900
+Evidence Sorting
+
+26
+00:03:19,900 --> 00:03:21,000
+Not enough evidence

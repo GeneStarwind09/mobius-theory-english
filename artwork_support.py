@@ -7,7 +7,7 @@ def pixel_hash(image):return hashlib.sha256(image.convert('RGBA').tobytes()).hex
 
 def payload_id(base):
     h=hashlib.sha256()
-    for rel in ('manifest.json','translations.json','artwork/manifest.json'):
+    for rel in ('manifest.json','translations.json','artwork/manifest.json','layout.json'):
         path=pathlib.Path(base)/rel
         h.update(rel.encode());h.update(path.read_bytes() if path.is_file() else b'absent')
     return h.hexdigest()

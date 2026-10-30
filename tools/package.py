@@ -5,14 +5,14 @@ ROOT=pathlib.Path(__file__).resolve().parents[1];os.chdir(ROOT)
 os.environ['PYINSTALLER_CONFIG_DIR']=str(ROOT/'.build/pyinstaller-cache')
 site.USER_SITE=str(ROOT/'.build/user-site');site.getusersitepackages=lambda:site.USER_SITE
 from PyInstaller.__main__ import run
-run(['--noconfirm','--windowed','--onedir','--name','Mobius-English-Patcher','--distpath','.build/frozen','--workpath','.build/pyinstaller','--specpath','.build','--collect-all','UnityPy','--collect-all','texture2ddecoder','--collect-all','etcpak','--collect-all','astc_encoder','--collect-all','archspec','patcher.py'])
+run(['--noconfirm','--windowed','--onedir','--name','Mobius-English-Patcher','--distpath','.build/frozen','--workpath','.build/pyinstaller','--specpath','.build','--collect-all','UnityPy','--collect-all','fmod_toolkit','--collect-all','texture2ddecoder','--collect-all','etcpak','--collect-all','astc_encoder','--collect-all','archspec','patcher.py'])
 out=ROOT/'dist/Mobius-Theory-English';out.mkdir(parents=True,exist_ok=True)
 shutil.copytree(ROOT/'.build/frozen/Mobius-English-Patcher',out,dirs_exist_ok=True)
-for filename in ['patcher.py','artwork_support.py','TextPatch.cs','manifest.json','translations.json','Translation-Review.csv','README.md','LICENSE','CONTRIBUTING.md','requirements.txt','THIRD-PARTY-NOTICES.txt']:
+for filename in ['patcher.py','artwork_support.py','layout_support.py','font_support.py','layout.json','TextPatch.cs','EnglishWrap.cs','manifest.json','translations.json','Translation-Review.csv','README.md','LICENSE','CONTRIBUTING.md','requirements.txt','THIRD-PARTY-NOTICES.txt']:
     shutil.copy2(ROOT/filename,out/filename)
 for folder in ['subtitles','licenses','docs','tools','artwork']:
     shutil.copytree(ROOT/folder,out/folder,dirs_exist_ok=True,ignore=shutil.ignore_patterns('__pycache__','*.pyc'))
-for filename in ['TextPatch.exe','Mono.Cecil.dll']:shutil.copy2(ROOT/'.build'/filename,out/filename)
+for filename in ['TextPatch.exe','Mono.Cecil.dll','EnglishWrap.dll']:shutil.copy2(ROOT/'.build'/filename,out/filename)
 archive=ROOT/'dist/Mobius-Theory-English.zip'
 with zipfile.ZipFile(archive,'w',zipfile.ZIP_DEFLATED,compresslevel=6) as z:
     for file in sorted(out.rglob('*')):

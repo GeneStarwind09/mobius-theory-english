@@ -1,0 +1,111 @@
+{
+  "timing_method": "Local source movie frames inspected at 10 fps; times in milliseconds. Original dialogue text and timing preserved.",
+  "cues": [
+    {
+      "file": "Chapter1.srt",
+      "new_index": 101,
+      "start": 517300,
+      "end": 520400,
+      "text": "Chapter 2: Memories",
+      "source": "第二章·记忆"
+    },
+    {
+      "file": "Chapter2.srt",
+      "new_index": 90,
+      "start": 412900,
+      "end": 415700,
+      "text": "Chapter 3: The Loop",
+      "source": "第三章·轮回"
+    },
+    {
+      "file": "Chapter3.srt",
+      "new_index": 63,
+      "start": 328000,
+      "end": 330900,
+      "text": "Chapter 4: Endings",
+      "source": "第四章·结局"
+    },
+    {
+      "file": "Chapter4_1.srt",
+      "new_index": 25,
+      "start": 198000,
+      "end": 199900,
+      "text": "Evidence Sorting",
+      "source": "资料整理游戏"
+    },
+    {
+      "file": "Chapter4_1.srt",
+      "new_index": 26,
+      "start": 199900,
+      "end": 201000,
+      "text": "Not enough evidence",
+      "source": "资料不足"
+    },
+    {
+      "file": "Chapter4_2.srt",
+      "new_index": 22,
+      "start": 142500,
+      "end": 145700,
+      "text": "Inner Monologue",
+      "source": "内心游戏"
+    },
+    {
+      "file": "Chapter4_2.srt",
+      "new_index": 69,
+      "start": 281100,
+      "end": 283600,
+      "text": "Weishi returned to the future\nto live with Yidie.",
+      "source": "最终，李未时还是选择回到未来和赵倚蝶一起生活"
+    },
+    {
+      "file": "Chapter5.srt",
+      "new_index": 34,
+      "start": 138500,
+      "end": 140300,
+      "text": "Xu Yan: Won, and now you want to leave?",
+      "source": "徐言：玩赢了就想走？"
+    },
+    {
+      "file": "Chapter5.srt",
+      "new_index": 35,
+      "start": 140300,
+      "end": 142400,
+      "text": "Xu Yan: Babe, you can't get away from me.",
+      "source": "徐言：宝你是离不开我的"
+    },
+    {
+      "file": "Chapter5.srt",
+      "new_index": 91,
+      "start": 416700,
+      "end": 419600,
+      "text": "Chapter 5: Fate",
+      "source": "第五章·宿命"
+    },
+    {
+      "file": "GameOver.srt",
+      "new_index": 1,
+      "start": 500,
+      "end": 4700,
+      "text": "The End",
+      "source": "全剧终"
+    },
+    {
+      "file": "Chapter5.srt",
+      "start": 5100,
+      "end": 8100,
+      "text": "Chapter 5: Fate",
+      "source": "第五章·宿命",
+      "revision": "0.2.2-review",
+      "new_index": 2
+    },
+    {
+      "file": "Chapter5.srt",
+      "start": 31000,
+      "end": 32800,
+      "text": "Three years earlier...",
+      "source": "三年前……",
+      "revision": "0.2.2-review",
+      "new_index": 4
+    }
+  ]
+}

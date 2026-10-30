@@ -1,0 +1,18 @@
+{
+  "version": "1.0.0",
+  "date": "2026-10-30",
+  "supported_steam_build": 9328697,
+  "game_version": "1.0.20",
+  "subtitle_cues": 471,
+  "artwork_textures": 189,
+  "layout_objects": 109,
+  "font_objects": 3,
+  "unit_tests": 20,
+  "full_English_playthrough": "owner completed",
+  "final_Mind_Palace_animation_and_interaction": "owner confirmed passed 2026-10-30",
+  "final_Close_button": "owner confirmed passed 2026-10-30",
+  "all_branches_and_hardware_exhaustively_tested": false,
+  "v1_game_replacements_identical_to_approved_0_2_4": true,
+  "frozen_release_install_restore": "passed; check/install/check/reinstall/restore/check",
+  "known_technical_issues": "see RELEASE-1.0.0.md; cause not established"
+}

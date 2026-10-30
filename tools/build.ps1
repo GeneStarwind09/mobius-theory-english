@@ -20,6 +20,8 @@ $cecilDll = Join-Path $cecilRoot 'lib\net40\Mono.Cecil.dll'
 $compiler = Join-Path $env:WINDIR 'Microsoft.NET\Framework64\v4.0.30319\csc.exe'
 if (-not (Test-Path -LiteralPath $compiler)) { throw 'The Windows .NET Framework 4.x C# compiler is required.' }
 $helper = Join-Path $taskBuild 'TextPatch.exe'
+& $compiler /nologo /target:library "/out:$(Join-Path $taskBuild 'EnglishWrap.dll')" (Join-Path $repoRoot 'EnglishWrap.cs')
+if ($LASTEXITCODE -ne 0) { throw 'EnglishWrap compilation failed.' }
 & $compiler /nologo /target:exe "/out:$helper" "/reference:$cecilDll" /reference:System.Web.Extensions.dll (Join-Path $repoRoot 'TextPatch.cs')
 if ($LASTEXITCODE -ne 0) { throw 'TextPatch compilation failed.' }
 Copy-Item -LiteralPath $cecilDll -Destination (Join-Path $taskBuild 'Mono.Cecil.dll') -Force

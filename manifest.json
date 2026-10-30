@@ -1,5 +1,5 @@
 {
-  "version": "0.2.0-dev",
+  "version": "1.0.0",
   "app_id": 1925830,
   "bundle": {
     "path": "轮回之理_Data/StreamingAssets/Bundles/gamebundle",
@@ -730,44 +730,87 @@
   "subtitles": {
     "Chapter1.srt": {
       "original_sha256": "c93e528678f99d23d404cf1ce955ad7f57af36da4081a2c4e002c2bd969d91c3",
-      "english_sha256": "64ae38859aa4d950e1fae08962a89d6703460899d26063c0dd09548daa1e6092",
+      "english_sha256": "f1248efdd56da554a1ce0845bb2c81f49acd55cf809f753df91707ef2c578a8c",
       "source_cues": 100,
-      "english_cues": 100
+      "english_cues": 101
     },
     "Chapter2.srt": {
       "original_sha256": "602aecfe2a68f319aa5ae04cafd3f1c64cd1382c48745babcb2a6e49eee4d298",
-      "english_sha256": "df03fd3686df0701bafe24f6bd0aba98e9d4c9176340e1c9c6246d4a8c0e251b",
+      "english_sha256": "f08f2faca3b038b6826bda0a586ad36d5ec2da5016b449ed4d729184a9cfdbf0",
       "source_cues": 89,
-      "english_cues": 89
+      "english_cues": 90
     },
     "Chapter3.srt": {
       "original_sha256": "c4efc17946514fd85b7ea9446f4e8e53b3f08b731d15f1f310bd5710b6e36021",
-      "english_sha256": "8b62334f0836699f577e4d920a9131a26160ea76fa7f92eef1c916f5808cf3ee",
+      "english_sha256": "1d7e480e2a1b636d9ec1c850096335dea54537463709cf744f98a8df29148070",
       "source_cues": 62,
-      "english_cues": 62
+      "english_cues": 63
     },
     "Chapter4_1.srt": {
       "original_sha256": "c9444f139eadadf6512740998feb2d82029c8aa9bfe3ccd11656d9b451c13291",
-      "english_sha256": "589d8d15591cffa1475355ca90331e2b953b272fe45cec2195c47d2139cb8cf8",
+      "english_sha256": "cc682bc6e6a9311ff0ce11e5f5bc62b700a16f7f2bb8b0a200bd52cc298ccc3e",
       "source_cues": 24,
-      "english_cues": 24
+      "english_cues": 26
     },
     "Chapter4_2.srt": {
       "original_sha256": "bc6f402ce4dfcc55b97eeb32013043005d3b9134dd3c22120dcaaee5b4e6d1e1",
-      "english_sha256": "618ccb7d28a29680bb3dd64f289615d76ba31235d71883c289a1cac83effcc2d",
+      "english_sha256": "2d33feb6c157ccbefa05e461af25c28bb05686f94bee2a22cbb7841299e15c23",
       "source_cues": 97,
-      "english_cues": 97
+      "english_cues": 99
     },
     "Chapter5.srt": {
       "original_sha256": "f8c96306422c2cb87fb3a32bd4b0408f25bf696d6cd5da824818b000edf4acb3",
-      "english_sha256": "8b445da76e91494a5f7503a3c78458a9dee84a46ba25e0095a33ffad77370e76",
+      "english_sha256": "ce75411e0ad0123707892efc17442b051a67cba92fd91c5c61fd72f1f0ecbb9f",
       "source_cues": 87,
-      "english_cues": 86
+      "english_cues": 91
+    },
+    "GameOver.srt": {
+      "original_sha256": null,
+      "source_cues": 0,
+      "english_cues": 1,
+      "english_sha256": "79852dc396a646250246698ce4aebb40dc1653fc875e96a81160a9d6dbd8a4bd"
     }
   },
-  "translations_sha256": "0502fcafad730dd13b113d4d2584d12483d58549a586492447b76e82c2dba27a",
+  "translations_sha256": "aea812a37b10e90cc05a156767e887fefd63edde29db82101b1877ef9c900372",
   "managed": {
     "path": "轮回之理_Data/Managed/Assembly-CSharp.dll",
     "original_sha256": "de9535d407245beb108599d4370770b5429182d7dc7af5e1cec5e637b377f84e"
+  },
+  "mind_palace_font": {
+    "resources_path": "轮回之理_Data/resources.assets",
+    "resources_sha256": "e0f40e56fdbf0269509a09a5074bd2b17e36b8402baff36e422004db1cfc2bd5",
+    "stream_path": "轮回之理_Data/resources.assets.resS",
+    "stream_sha256": "33f7e81ebaa1fcb21174fe69ce271605a88c269d3762405997046af8087cf7e9",
+    "font_id": -8113898010303453474,
+    "material_id": -2323085893735651695,
+    "texture_id": 548297605233647451,
+    "source_font_id": 30,
+    "source_texture_id": 12,
+    "clue_keys": [
+      "车的贴纸",
+      "林见鹤",
+      "醉酒司机",
+      "调酒师",
+      "发型",
+      "酒的价格",
+      "情人节",
+      "时间",
+      "我",
+      "心情"
+    ],
+    "targets": [
+      {
+        "id": -8113898010303453474,
+        "sha256": "7d0e188be330c5272b69d7e6a09e426554d2edb3fcd4bc010cd7ccfd8d1d6b13"
+      },
+      {
+        "id": -2323085893735651695,
+        "sha256": "cdc7db070b37d7c21e665ef6bb6330b445a1fc6a96fe59f385754f72de478a8a"
+      },
+      {
+        "id": 548297605233647451,
+        "sha256": "cfd4823902ff77430179134507c160982a3c51fd333e7036dbbc8cdecc74bd89"
+      }
+    ]
   }
 }

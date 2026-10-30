@@ -2,6 +2,8 @@
 from __future__ import annotations
 import pathlib,hashlib,json,os,sys,re,shutil,tempfile,subprocess,argparse,threading,queue
 from artwork_support import payload_id,load_replacements,apply_replacements,verify_replacements
+from layout_support import load_layout,validate_originals,apply_layout,verify_layout
+from font_support import apply_mind_palace_font
 
 BASE=pathlib.Path(sys.executable).parent if getattr(sys,'frozen',False) else pathlib.Path(__file__).resolve().parent
 CREATE_NO_WINDOW=0x08000000 if os.name=='nt' else 0
@@ -13,6 +15,11 @@ def digest(p):
     return h.hexdigest()
 
 def read_json(p):return json.loads(pathlib.Path(p).read_text(encoding='utf-8'))
+
+def file_hash(p):
+    p=pathlib.Path(p)
+    if p.exists() and not p.is_file():raise RuntimeError('Expected a file: '+str(p))
+    return digest(p) if p.is_file() else None
 
 def atomic_json(p,data):
     temp=p.with_suffix('.tmp');temp.write_text(json.dumps(data,ensure_ascii=False,indent=2),encoding='utf-8');os.replace(temp,p)
@@ -44,14 +51,16 @@ def check(root,log=print):
             log('English patch is installed; all patched file hashes match.');return 'installed'
         if state.get('status')=='prepared':raise RuntimeError('An interrupted installation was detected. Use Restore Chinese first.')
     for rel,expected in targets(m).items():
-        if digest(safe_path(root,rel))!=expected:raise RuntimeError('Unsupported or modified game file: '+rel+'\nThis patch supports the build listed in README. No files were changed.')
+        if file_hash(safe_path(root,rel))!=expected:raise RuntimeError('Unsupported or modified game file: '+rel+'\nThis patch supports the build listed in README. No files were changed.')
     log('Supported original game build verified.');return 'original'
 
-def build_bundle(source,destination,mapping,manifest,log):
+def build_bundle(source,destination,mapping,manifest,log,game_root=None):
     import UnityPy
     artwork=load_replacements(BASE,manifest)
     log('Reading Unity bundle...')
-    env=UnityPy.load(source.read_bytes());expected={};changed=set();text_count=0
+    env=UnityPy.load(source.read_bytes());expected={};changed=set();text_count=0;ui_trees={}
+    index={o.path_id:o for o in env.objects}
+    layout=load_layout(BASE,manifest);validate_originals(index,layout)
     for path,obj in env.container.items():
         if obj.type.name!='TextAsset' or '/configs/' not in path or path.endswith('/contractus.json'):continue
         data=obj.read();s=data.m_Script
@@ -75,9 +84,15 @@ def build_bundle(source,destination,mapping,manifest,log):
             font=tree['m_FontData'];font['m_BestFit']=True
             font['m_MinSize']=min(12,font.get('m_FontSize',24));font['m_MaxSize']=font.get('m_FontSize',24)
         obj.save_typetree(tree);changed.add(obj.path_id);expected[obj.path_id]=('ui',(key,tree[key]))
+        ui_trees[obj.path_id]=tree
     if text_count<400:raise RuntimeError('Insufficient translated text matches in Unity bundle.')
     art_expected=apply_replacements(env,BASE,artwork,log)
+    layout_expected=apply_layout(index,layout,ui_trees)
+    changed.update(layout_expected)
     changed.update(art_expected)
+    if manifest.get('mind_palace_font') and game_root is None:raise ValueError('Game folder is required for its bundled English font.')
+    font_expected=apply_mind_palace_font(env,game_root,manifest,mapping,log)
+    changed.update(font_expected)
     log('Writing translated Unity bundle...')
     destination.write_bytes(env.file.save(packer='lz4'))
     # Reload and verify every changed object and every untouched binary object.
@@ -88,12 +103,14 @@ def build_bundle(source,destination,mapping,manifest,log):
         other=out[ident]
         if ident not in changed:
             if obj.get_raw_data()!=other.get_raw_data():raise RuntimeError('An unrelated Unity object changed.')
-        elif ident not in art_expected:
+        elif ident not in art_expected and ident not in layout_expected and ident not in font_expected:
             kind,value=expected[ident]
             actual=other.read().m_Script if kind=='text' else other.read_typetree()[value[0]]
             if actual!=(value if kind=='text' else value[1]):raise RuntimeError('Translated Unity object failed verification.')
     verify_replacements(out,art_expected)
-    log(f'Bundle verified: {text_count} text occurrences, {len(manifest["bundle"]["ui_objects"])} UI objects, {len(art_expected)} artwork replacements; other objects unchanged.')
+    verify_layout(out,layout_expected)
+    verify_layout(out,font_expected)
+    log(f'Bundle verified: {text_count} text occurrences, {len(manifest["bundle"]["ui_objects"])} UI objects, {len(art_expected)} artwork replacements, {len(layout_expected)} layout objects; other objects unchanged.')
 
 def restore(root,log=print):
     root=pathlib.Path(root).resolve()
@@ -104,11 +121,14 @@ def restore(root,log=print):
     # Validate the complete restore before writing anything.
     for rel,info in state['files'].items():
         saved=safe_path(backup/'original',rel);target=safe_path(root,rel)
-        if not saved.is_file() or digest(saved)!=info['original']:raise RuntimeError('Missing or damaged backup: '+rel)
-        if digest(target) not in (info['original'],info['english']):raise RuntimeError('File changed after patching: '+rel+'\nRestore refused to overwrite an update or another mod.')
-    for rel in state['files']:
+        if info['original'] is not None and (not saved.is_file() or digest(saved)!=info['original']):raise RuntimeError('Missing or damaged backup: '+rel)
+        if file_hash(target) not in (info['original'],info['english']):raise RuntimeError('File changed after patching: '+rel+'\nRestore refused to overwrite an update or another mod.')
+    for rel,info in state['files'].items():
         target=safe_path(root,rel);temp=target.with_name(target.name+'.mobius-restore.tmp')
-        shutil.copy2(safe_path(backup/'original',rel),temp);os.replace(temp,target)
+        if info['original'] is None:
+            target.unlink(missing_ok=True)
+        else:
+            shutil.copy2(safe_path(backup/'original',rel),temp);os.replace(temp,target)
         log('Restored '+rel)
     state['status']='restored';atomic_json(statepath,state)
     log('Original Chinese files restored. Backups retained. Save files were not touched.')
@@ -130,7 +150,7 @@ def install(root,log=print):
         for rel,original in targets(manifest).items():
             dest=safe_path(stage,rel);dest.parent.mkdir(parents=True,exist_ok=True)
             source=safe_path(root,rel)
-            if rel==manifest['bundle']['path']:build_bundle(source,dest,mapping,manifest,log)
+            if rel==manifest['bundle']['path']:build_bundle(source,dest,mapping,manifest,log,root)
             elif rel==manifest['managed']['path']:
                 log('Translating dynamic menu text...')
                 result=subprocess.run([str(BASE/'TextPatch.exe'),str(source),str(dest),str(BASE/'translations.json')],capture_output=True,creationflags=CREATE_NO_WINDOW)
@@ -144,7 +164,8 @@ def install(root,log=print):
         log('All replacements built. Backing up originals...')
         for rel,info in prepared.items():
             source=safe_path(root,rel)
-            if digest(source)!=info['original']:raise RuntimeError('Source changed during patch preparation: '+rel)
+            if file_hash(source)!=info['original']:raise RuntimeError('Source changed during patch preparation: '+rel)
+            if info['original'] is None:continue
             saved=safe_path(backup/'original',rel);saved.parent.mkdir(parents=True,exist_ok=True)
             if saved.exists():
                 if digest(saved)!=info['original']:raise RuntimeError('Existing backup does not match the original build.')
@@ -179,10 +200,11 @@ def gui():
     import tkinter as tk
     from tkinter import ttk,filedialog,messagebox
     version=read_json(BASE/'manifest.json')['version']
-    win=tk.Tk();win.title(f'Mobius Theory — English Test Patch {version}');win.geometry('780x520');win.minsize(680,440)
+    win=tk.Tk();win.title(f'Mobius Theory — English Patch {version}');win.geometry('780x520');win.minsize(680,440)
     frame=ttk.Frame(win,padding=18);frame.pack(fill='both',expand=True)
-    ttk.Label(frame,text='MOBIUS THEORY — English Test Patch',font=('Segoe UI',17,'bold')).pack(anchor='w')
-    ttk.Label(frame,text='English subtitles, choices, story text and text-based menus.\nChinese artwork and some puzzle images remain. Close the game first.',wraplength=720).pack(anchor='w',pady=(8,16))
+    ttk.Label(frame,text='MOBIUS THEORY — English Patch',font=('Segoe UI',17,'bold')).pack(anchor='w')
+    artwork_count=len(load_replacements(BASE,read_json(BASE/'manifest.json')))
+    ttk.Label(frame,text=f'English subtitles, choices, story text and menus.\n{artwork_count} translated artwork textures included. Close the game first.',wraplength=720).pack(anchor='w',pady=(8,16))
     ttk.Label(frame,text='Steam game installation folder:').pack(anchor='w')
     row=ttk.Frame(frame);row.pack(fill='x',pady=5);path=tk.StringVar(value=find_game())
     ttk.Entry(row,textvariable=path).pack(side='left',fill='x',expand=True)

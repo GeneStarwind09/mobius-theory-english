@@ -83,307 +83,315 @@ Coffee's too bitter.
 I prefer juice.
 
 22
+00:02:22,500 --> 00:02:25,700
+Inner Monologue
+
+23
 00:02:36,575 --> 00:02:37,700
 You're here.
 
-23
+24
 00:02:38,475 --> 00:02:40,100
 Know why I wanted to meet here?
 
-24
+25
 00:02:40,675 --> 00:02:41,425
 Of course.
 
-25
+26
 00:02:41,675 --> 00:02:43,150
 This is where we first met.
 
-26
+27
 00:02:43,998 --> 00:02:44,800
 Clever boy.
 
-27
+28
 00:02:45,475 --> 00:02:47,050
 Then I'll tell you another secret.
 
-28
+29
 00:02:47,424 --> 00:02:48,174
 Okay.
 
-29
+30
 00:02:49,500 --> 00:02:51,325
 You're going to be a dad.
 
-30
+31
 00:02:51,950 --> 00:02:53,200
 I'm going to be a dad?
 
-31
+32
 00:02:53,375 --> 00:02:54,250
 No...
 
-32
+33
 00:02:54,350 --> 00:02:55,675
 This can't happen.
 
-33
+34
 00:02:55,700 --> 00:02:57,650
 My fate is already decided.
 
-34
+35
 00:02:57,800 --> 00:03:00,500
 I have to let go of this love that should
 never have been.
 
-35
+36
 00:03:00,650 --> 00:03:01,700
 Goodbye,
 
-36
+37
 00:03:01,725 --> 00:03:02,775
 Zhao Yidie.
 
-37
+38
 00:03:27,537 --> 00:03:28,287
 Hello.
 
-38
+39
 00:03:28,325 --> 00:03:29,125
 Detention centre.
 
-39
+40
 00:03:29,125 --> 00:03:30,000
 Am I speaking
 
-40
+41
 00:03:30,025 --> 00:03:31,350
 to Li Weishi?
 
-41
+42
 00:03:31,750 --> 00:03:33,125
 Speaking.
 
-42
+43
 00:03:34,875 --> 00:03:35,875
 As procedure requires,
 
-43
+44
 00:03:36,077 --> 00:03:38,077
 the condemned prisoner, Zhao Yidie,
 
-44
+45
 00:03:38,277 --> 00:03:40,277
 has requested a final call with you.
 
-45
+46
 00:03:42,575 --> 00:03:44,000
 You know,
 
-46
+47
 00:03:44,525 --> 00:03:45,425
 that day,
 
-47
+48
 00:03:46,650 --> 00:03:47,750
 I'd already chosen
 
-48
+49
 00:03:48,175 --> 00:03:49,575
 a name for our baby.
 
-49
+50
 00:03:51,775 --> 00:03:52,975
 Xiaodie...
 
-50
+51
 00:03:57,950 --> 00:03:58,700
 Honey!
 
-51
+52
 00:03:59,050 --> 00:03:59,800
 You're here.
 
-52
+53
 00:04:00,125 --> 00:04:01,400
 I'm starving.
 
-53
+54
 00:04:01,400 --> 00:04:02,725
 Shall we go for barbecue?
 
-54
+55
 00:04:03,050 --> 00:04:05,050
 That place over there is really good.
 
-55
+56
 00:04:05,475 --> 00:04:06,225
 How about it?
 
-56
+57
 00:04:17,625 --> 00:04:18,500
 Honey.
 
-57
+58
 00:04:19,050 --> 00:04:20,575
 Is something bothering you today?
 
-58
+59
 00:04:21,125 --> 00:04:23,125
 I... I came to break up with you.
 
-59
+60
 00:04:25,725 --> 00:04:26,550
 What did you say?
 
-60
+61
 00:04:27,150 --> 00:04:28,975
 I've been meaning to tell you.
 
-61
+62
 00:04:29,325 --> 00:04:30,000
 It's over.
 
-62
+63
 00:04:30,000 --> 00:04:31,200
 Why?
 
-63
+64
 00:04:32,700 --> 00:04:33,725
 Give me more time.
 
-64
+65
 00:04:33,725 --> 00:04:35,350
 Then I can tell you everything.
 
-65
+66
 00:04:36,225 --> 00:04:37,361
 It's nothing you've done.
 
-66
+67
 00:04:37,550 --> 00:04:38,900
 It's me.
 
-67
+68
 00:04:39,350 --> 00:04:41,032
 So you've been lying to me all along?
 
-68
+69
+00:04:41,100 --> 00:04:43,600
+Weishi returned to the future
+to live with Yidie.
+
+70
 00:05:00,625 --> 00:05:02,025
 I finish work early today.
 
-69
+71
 00:05:02,025 --> 00:05:02,889
 Pick me up at noon?
 
-70
+72
 00:05:32,000 --> 00:05:32,864
 Does it taste good?
 
-71
+73
 00:05:35,050 --> 00:05:37,050
 Coffee's too bitter.
 
-72
+74
 00:05:37,050 --> 00:05:38,125
 I prefer juice.
 
-73
+75
 00:06:01,325 --> 00:06:02,150
 Actually,
 
-74
+76
 00:06:02,150 --> 00:06:03,225
 I have a secret too.
 
-75
+77
 00:06:04,250 --> 00:06:05,725
 I'll tell you when I'm ready.
 
-76
+78
 00:06:15,175 --> 00:06:16,675
 Let me take you home first.
 
-77
+79
 00:06:29,250 --> 00:06:30,693
 You're the one who cheated!
 
-78
+80
 00:06:31,450 --> 00:06:32,650
 You bastard!
 
-79
+81
 00:06:33,450 --> 00:06:35,150
 I never want to see you again!
 
-80
+82
 00:06:35,150 --> 00:06:36,000
 Get lost!
 
-81
+83
 00:07:08,350 --> 00:07:09,100
 It's okay.
 
-82
+84
 00:07:09,374 --> 00:07:10,601
 Go and sit down over there.
 
-83
+85
 00:07:17,975 --> 00:07:18,782
 Hello? Police?
 
-84
+86
 00:07:19,500 --> 00:07:20,325
 We've crashed!
 
-85
+87
 00:07:27,100 --> 00:07:28,400
 I believe you now.
 
-86
+88
 00:07:31,100 --> 00:07:33,100
 But your past self is dead now.
 
-87
+89
 00:07:34,850 --> 00:07:36,350
 When you return to the future,
 
-88
+90
 00:07:36,350 --> 00:07:37,441
 what will happen to you?
 
-89
+91
 00:07:39,200 --> 00:07:40,100
 I can't go back.
 
-90
+92
 00:07:40,800 --> 00:07:41,625
 Maybe
 
-91
+93
 00:07:41,625 --> 00:07:42,905
 these are my final moments.
 
-92
+94
 00:07:43,950 --> 00:07:46,560
 Maybe this is the price of changing fate.
 
-93
+95
 00:07:48,100 --> 00:07:49,873
 In this world, neither of you knows me.
 
-94
+96
 00:07:50,375 --> 00:07:51,475
 But...
 
-95
+97
 00:07:52,000 --> 00:07:53,182
 at least you're both safe.
 
-96
+98
 00:07:54,825 --> 00:07:56,587
 The time I spent with you...
 
-97
+99
 00:07:56,587 --> 00:07:58,025
 I was truly happy.
-

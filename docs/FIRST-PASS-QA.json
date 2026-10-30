@@ -1,0 +1,46 @@
+{
+  "version": "0.2.0-firstpass",
+  "artwork_textures": 188,
+  "subtitle_cues": 458,
+  "config_text_occurrences": 496,
+  "UI_objects": 144,
+  "bundle_RGBA_roundtrip": "passed by packaged patcher",
+  "unrelated_Unity_object_bytes": "passed by packaged patcher",
+  "frozen_installer_install_check_idempotence_restore": "passed",
+  "restored_original_hashes": "passed",
+  "installed_game_modified": false,
+  "in_game_branch_playtest": "pending",
+  "actions": [
+    {
+      "action": "check",
+      "exit_code": 0,
+      "seconds": 0.55
+    },
+    {
+      "action": "install",
+      "exit_code": 0,
+      "seconds": 75.24
+    },
+    {
+      "action": "check",
+      "exit_code": 0,
+      "seconds": 0.6
+    },
+    {
+      "action": "install",
+      "exit_code": 0,
+      "seconds": 0.7
+    },
+    {
+      "action": "restore",
+      "exit_code": 0,
+      "seconds": 1.06
+    },
+    {
+      "action": "check",
+      "exit_code": 0,
+      "seconds": 0.39
+    }
+  ],
+  "seconds": 79.3
+}

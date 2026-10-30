@@ -1,52 +1,61 @@
 # Mobius Theory — English fan translation
 
-Open-source tools and English translation data for **轮回之理 — MOBIUS THEORY**,
+English subtitles, story text, menus and artwork for **轮回之理 — MOBIUS THEORY**,
 [Steam app 1925830](https://store.steampowered.com/app/1925830/MOBIUS_THEORY/).
 
-**Status: test release.** All six shipped subtitle files are translated. Story
-choices, evidence, endings, inner monologues and many text-based menus are also
-translated. Chinese text baked into artwork remains; an artwork editing and
-verified reimport workflow is included. A full branch-by-branch audiovisual
-playtest has not been completed.
+**Version 1.0.0.** The complete Windows release includes 471 subtitle cues across
+seven files and 189 artwork replacements covering tutorials, buttons, documents,
+computer screens and puzzle labels. Choices, evidence, endings, inner monologues
+and text-based menus are translated too.
 
-## Transparency
+**[Download the English patch](https://github.com/GeneStarwind09/mobius-theory-english/releases/tag/v1.0.0).**
+Choose **Mobius-Theory-English-v1.0.0.zip**, not GitHub's automatic source ZIP.
+The owner completed the game in English, performed further QA passes, and
+confirmed the final Mind Palace animation/interaction and Close-button repairs.
+See [release notes and known issues](docs/RELEASE-1.0.0.md).
 
-- The Python patcher, C# text helper, translation data and build tools are here.
-- The patcher makes replacements from each player's own installation.
-- Original game movies, bundles, assemblies and extracted art are not included.
-- No account or network connection is required by the installed patcher.
-- Every modified file is backed up and checked with SHA-256 hashes.
-- The Unity rebuild verifies all unrelated objects remain byte-identical.
-- Automated Windows builds use the source checkout and pinned Python packages.
+## Install
 
-The initial translation and tools were developed with AI assistance. Human
-wording review, visual checking of edited artwork and full gameplay testing
-remain valuable contributions. The project does not claim an independent
-professional review has already occurred.
-
-## Install a built package
-
-1. Extract the complete Windows patch ZIP, including `_internal/`.
+1. Extract the entire release ZIP, retaining `_internal/` and `artwork/`.
 2. Close the game and run `Mobius-English-Patcher.exe`.
 3. Select the folder containing `轮回之理.exe`.
 4. Click **Check Installation**, then **Install English** and wait for completion.
 5. Launch normally through Steam. Enable subtitles in Settings if needed (`字幕`).
 
-The supported game is **Steam build 9328697 / in-game version 1.0.20**. Actual
-file hashes must match; a matching displayed version alone is not sufficient.
-Allow about 1.5 GB free space, more for large future artwork batches.
+Requires a purchased, installed copy of **Steam build 9328697 / game 1.0.20**.
+The patcher verifies actual SHA-256 hashes, not just the displayed version.
+Allow about 1.5 GB free space for temporary files and backups.
 
-To uninstall, close the game and click **Restore Chinese**. Backups are retained
-inside `.mobius-english/original` in the game folder. The patcher does not edit
-save files. Steam verification can also restore official files and remove the
-patch. Updates or other mods may cause the checks to reject an installation.
+To uninstall, close the game and click **Restore Chinese**. Originals are backed
+up in `.mobius-english/original`. Saves are not edited. Steam verification restores
+official files but may leave the added `GameOver.srt`; Restore Chinese removes
+that tracked file too. Changed files from updates or other mods are rejected.
 
-The previously tested text patch is version 0.1.0. The source adds an artwork
-workflow for the next revision; no translated artwork batch is included yet.
+If upgrading an earlier patch, **Restore Chinese** first, then install this
+release. The approved 0.2.4 QA revision has identical game-file replacements to
+1.0.0; its tester does not need to reinstall.
 
-## Run or build from source
+## Transparency
 
-On 64-bit Windows with Python 3.10:
+- The Python patcher, C# helper, subtitle/translation data and build tools are public.
+- Replacements are built from each player's installation; all modified files are backed up.
+- Unrelated Unity object bytes and replacement texture pixels are verified after rebuilding.
+- The patcher makes no network requests and requires no account.
+- Original movies, bundles, assemblies and font data are not distributed.
+- The English replacement PNGs and their per-file hashes are included in release assets.
+
+The translation and artwork were developed with AI assistance and human gameplay
+QA. This is not a claim of independent professional linguistic certification or
+exhaustive testing of every branch, ending, display size and hardware setup.
+
+## Build or run from source
+
+On 64-bit Windows with Python 3.10, clone this repository. For the complete
+artwork build, copy **artwork/** from the release ZIP into the checkout before
+building. The same PNGs and hashes are available separately in
+**Mobius-Theory-English-Artwork-v1.0.0.zip**. Binary artwork is kept in release
+assets rather than Git history. Without it, a checkout builds a text-only patcher;
+the public Actions artifact is therefore tools/text only.
 
 ```powershell
 python -m venv .venv
@@ -55,56 +64,35 @@ python -m venv .venv
 powershell -NoProfile -File tools/build.ps1
 ```
 
-The build script downloads **Mono.Cecil 0.11.6** from NuGet, verifies its pinned
-SHA-256, and compiles `TextPatch.cs` with the Windows .NET Framework C# compiler.
-It packages the Python program using PyInstaller. Windows .NET Framework 4.x
-is used by the small text helper. No game data is required to build the tools.
+The build verifies Mono.Cecil 0.11.6 from NuGet, compiles `TextPatch.cs` and
+`EnglishWrap.cs` using the Windows .NET Framework compiler, and packages Python
+with PyInstaller. No game data is needed to build the tools. Installation reads
+the supported game's font resources locally; those files remain unchanged.
+Output: `dist/Mobius-Theory-English/`, its ZIP and a SHA-256 checksum.
 
-Output: `dist/Mobius-Theory-English/` and `dist/Mobius-Theory-English.zip`, with
-a SHA-256 checksum file. The `Windows build` Actions workflow runs the same
-script and uploads its build artifact. Inspect the workflow run's commit before
-downloading its artifact. This is a documented build process, not a claim of
-bit-for-bit reproducible executables or a code-signing certificate.
+For a source run, copy `.build/TextPatch.exe`, `Mono.Cecil.dll` and `EnglishWrap.dll`
+beside `patcher.py`, then run `python patcher.py`. CLI:
+`python patcher.py --action check|install|restore --game "path"`.
 
-For a non-frozen source run, copy the generated `TextPatch.exe` and
-`Mono.Cecil.dll` from `.build/` beside `patcher.py`, then run:
+Dependencies and build scripts are public. The executable is not code signed,
+and bit-for-bit reproducible builds are not claimed. Inspect the source revision
+and checksum corresponding to the release you download.
 
-```powershell
-.venv\Scripts\python patcher.py
-```
+## Contribute
 
-CLI usage: `python patcher.py --action check|install|restore --game "path"`.
-
-## Artwork editing
-
-[Export and reimport instructions](docs/ARTWORK.md) explain how to create a
-searchable local pack, edit PNGs without moving their sprite positions, and
-prepare a batch with validated image dimensions, identities and hashes.
-
-## Translation and testing
-
-`Translation-Review.csv` accounts for all 459 source cues as 458 English cues.
-One duplicate source line lasting 20 ms is merged. Subtitle start times remain
-fixed; short lines extend into available silence by at most 500 ms. Lines wrap
-to at most two lines of 42 characters; the initial maximum calculated reading
-rate is 24.75 characters per second.
-
-`translations.json` contains 546 dictionary entries, used for 496 configuration
-text occurrences, 144 UI text objects and 61 dynamic assembly literals. Values
-are editable, with translation integrity hashes refreshed using
-`python tools/validate.py --refresh-hashes` before building a revised release.
+Report issues with the chapter, scene, game build and a screenshot or timestamp.
+Mark story spoilers. Subtitle lines, choices and artwork can be reviewed separately.
+Use `python tools/validate.py --refresh-hashes` after editing translation payloads.
 
 - [Context and glossary — full spoilers](docs/Context-and-Translation-Notes.md)
-- [Initial text-patch validation report](docs/Validation-Report.md)
+- [Artwork editing workflow](docs/ARTWORK.md)
+- [Artwork rendering checks](docs/ARTWORK-VALIDATION.md)
 - [Contribution guide](CONTRIBUTING.md)
-
-Please report wording, timing, layout and gameplay issues with the chapter,
-scene, relevant timestamp and game build. Mark story spoilers clearly.
+- [Release QA](docs/QA-1.0.0.json)
 
 ## Licence and affiliation
 
-Original project contributions are under the [MIT licence](LICENSE). Original
-game assets, original Chinese text and third-party software are outside that
-grant. Dependency notices are retained in `licenses/` and
-`THIRD-PARTY-NOTICES.txt`. This is an unofficial fan project, unaffiliated with
-the developer and Valve. A purchased, installed copy of the game is required.
+Original code, documentation and translation contributions use the [MIT licence](LICENSE).
+Original game art, Chinese text, trademarks and third-party software remain
+outside that grant. See `licenses/` and `THIRD-PARTY-NOTICES.txt`.
+This is an unofficial fan project, unaffiliated with the developer or Valve.

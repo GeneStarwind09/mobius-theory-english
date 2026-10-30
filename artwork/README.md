@@ -1,6 +1,9 @@
 # Optional translated artwork
 
-No original game images or edited image batch is committed here.
+Replacement PNGs are distributed in the complete release ZIP and the separate
+artwork ZIP, alongside their per-file hashes. They are not stored in Git history.
+Copy the release artwork/ folder here to build the complete patch. Original
+editing packs are not distributed.
 
 Use `tools/artwork.py export` to create a local editing pack from your own game.
 Use `tools/artwork.py prepare` to validate returned PNGs and place a batch here.
